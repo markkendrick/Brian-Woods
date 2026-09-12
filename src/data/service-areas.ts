@@ -1,3 +1,4 @@
+/** Internal SEO targeting list. Not for homepage or knowledge-base copy. */
 export type AreaRound = "first" | "conditional" | "secondary";
 
 export const serviceAreas = [

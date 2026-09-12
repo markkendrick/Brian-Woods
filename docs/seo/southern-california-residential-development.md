@@ -1,6 +1,8 @@
-# Southern California residential development — knowledge summary
+# Southern California residential development — SEO targeting roadmap
 
-Cleaned from the September 11, 2026 research report. This is a landowner-marketing and opportunity-screening brief, not a finding that specific land is ready to build.
+Internal use only. Cleaned from the September 11, 2026 research report.
+
+Do not paste this onto the website as Brian’s knowledge or as claims about available land. Use it to target property owners in these regions who may need help developing land.
 
 ## What Brian is looking for
 
