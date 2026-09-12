@@ -220,8 +220,8 @@ export default function HomePage() {
           <Image
             src="/images/projects/about-1.jpg"
             alt="Aerial view of graded residential lots, new roads, and a hillside development site"
-            width={768}
-            height={768}
+            width={1024}
+            height={1024}
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="h-auto w-full rounded-sm object-cover"
           />
