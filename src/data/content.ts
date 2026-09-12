@@ -2,9 +2,9 @@ export const pages = [
   {
     path: "/",
     title:
-      "Land Development Consultant Huntington Beach | Services Los Angeles | Land Development Specialists",
+      "Land Development Consultant Southern California | Land Development Specialists",
     description:
-      "Plan and manage successful development projects with a trusted land development consultant in Huntington Beach and Los Angeles. Explore professional solutions today!",
+      "Residential land development services for landowners in Southern California. Consulting, subdivision development, and project management for communities of about 100–200 homes.",
     h1: "Transforming Land Into Thriving Communities",
   },
   {
@@ -48,9 +48,9 @@ export const pages = [
   {
     path: "/services/land-development-project-management/",
     title:
-      "Land Development Project Los Angeles | Land Development Management Corona | Land Development",
+      "Land Development Project Management Riverside County | Land Development Specialists",
     description:
-      "Keep the project plan, people, budget, and schedule working together with land development project management from Land Development Specialists LLC.",
+      "Residential development management and owner-representative project management in Riverside County for subdivisions of about 100–200 homes.",
     h1: "End-to-End Land Development Project Management",
     descriptionNote:
       "The live page had a title and H1. This description restates the visible lead text.",

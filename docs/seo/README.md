@@ -1,12 +1,13 @@
-# SEO targeting roadmap
+# SEO targeting
 
-The Southern California research report is **not** website copy and **not** Brian’s knowledge base.
+These files guide who to reach and which pages to build. They are **not** Brian’s knowledge base and **not** website copy.
 
-Use it only to decide which landowners and project decision-makers to reach, and which regions and search themes to test.
+| File | Use |
+| --- | --- |
+| `page-order.md` | Page sequence, keyword groups, and the next page to create |
+| `southern-california-residential-development.md` | Inland markets and landowner targeting |
+| `Brian_Southern_California_Development_Research.pdf` | Source research |
 
-- Source: `Brian_Southern_California_Development_Research.pdf`
-- Internal summary: `southern-california-residential-development.md`
-- Audience: owners of residential land who may need help developing it
-- First-round geography: western Riverside County (Menifee, Perris, Hemet–San Jacinto, Beaumont–Banning) plus apartment screens in Wildomar, Lake Elsinore, Hemet, and Ontario
-- Do not publish research language or project precedents as if they were Brian’s content
-- Do not create thin city pages
+**Content** still comes only from `docs/knowledge/` or notes Brian supplies.
+
+After each new service page ships, open `page-order.md` and recommend the next unused row.

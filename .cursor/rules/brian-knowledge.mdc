@@ -1,12 +1,14 @@
 ---
-description: Brian’s notes are the content source. The research PDF is SEO targeting only.
+description: Brian’s notes are content. docs/seo/ is page-order and targeting only.
 alwaysApply: true
 ---
 
-# Content vs SEO research
+# Content vs SEO
 
-**Site copy:** Use only what Brian adds to `docs/knowledge/` (or supplies in chat). Clean the wording. Do not invent facts.
+**Site copy:** Use only what Brian adds to `docs/knowledge/` or supplies in chat. Clean wording. Do not invent facts.
 
-**Research report:** `docs/seo/` is a targeting roadmap for landowners in western Riverside and related apartment markets. Use it to choose audiences and search themes. Do not publish it as homepage or service content.
+**SEO files in `docs/seo/`:** Use to choose audiences, keyword groups, and page order. Do not paste research onto the homepage.
 
-Do not create thin city pages. Do not present research project examples as listings or as Brian’s completed work unless he documents that role.
+**Build order:** Improve a matching existing URL first. Lead with consulting (homepage), project management (`/services/land-development-project-management/`), then create the subdivision page. Then feasibility, entitlements, multifamily, then inland markets.
+
+**After creating a page:** Recommend the next unused row in `docs/seo/page-order.md`. One page per keyword group. No thin city pages. No partnership copy unless Brian offers it.
