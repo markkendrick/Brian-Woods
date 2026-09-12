@@ -1,0 +1,14 @@
+---
+description: After website changes, give a Sourcetree commit comment and push reminder.
+alwaysApply: true
+---
+
+# Sourcetree comments
+
+When files change and the user needs to save work, provide:
+
+1. Files to stage
+2. A short commit message they can paste into Sourcetree
+3. Push reminder: check **main** only, leave **All tags** unchecked
+
+Do not create a git commit unless they explicitly ask to commit.
