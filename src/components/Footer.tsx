@@ -11,11 +11,11 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-3">
         <div>
           <Image
-            src={site.logoPath}
+            src={site.footerLogoPath}
             alt={site.logoAlt}
-            width={site.logoWidth}
-            height={site.logoHeight}
-            className="h-14 w-auto max-w-[18rem] rounded-sm bg-cream object-contain p-2"
+            width={site.footerLogoWidth}
+            height={site.footerLogoHeight}
+            className="h-28 w-auto max-w-[18rem] rounded-sm bg-cream object-contain p-2"
           />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/85">
             {site.name} works with developers and landowners through acquisition,

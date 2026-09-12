@@ -36,6 +36,9 @@ export const site = {
   logoWidth: 1024,
   logoHeight: 341,
   logoAlt: "Land Developpment Specialist LLC",
+  footerLogoPath: "/images/brand/logo-stacked.jpg",
+  footerLogoWidth: 1024,
+  footerLogoHeight: 341,
   verification: "qt6BZBTht6J8LrOp4nDTJLAqQq7r6KwOOE3vhxvk-JQ",
   analyticsId: "G-ELK6NKXXZY",
 };
