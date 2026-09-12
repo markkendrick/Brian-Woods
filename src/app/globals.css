@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  background: #f7f4ee;
+  color: #1a1a1a;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #555;
+}
+
+h1 {
+  margin: 0.75rem 0 0;
+  font-size: 2.5rem;
+}
+
+.lede {
+  margin: 1rem 0 0;
+  font-size: 1.125rem;
+  color: #444;
+}
