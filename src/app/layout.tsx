@@ -9,12 +9,14 @@ import "./globals.css";
 
 const sourceSans = Source_Sans_3({
   subsets: ["latin"],
+  weight: ["400", "600"],
   variable: "--font-source-sans",
   display: "swap",
 });
 
 const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
+  weight: ["600"],
   variable: "--font-source-serif",
   display: "swap",
 });

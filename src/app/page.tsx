@@ -43,8 +43,8 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-navy/55" />
         <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
           <div className="max-w-2xl rounded-sm bg-cream/95 p-6 sm:p-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gold-deep">
-              Huntington Beach • Southern California
+            <p className="kicker">
+              Servicing Southern California over 20 years plus.
             </p>
             <h1 className="mt-4 font-display text-4xl font-semibold leading-tight sm:text-5xl">
               {page.h1}
@@ -84,19 +84,19 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-6xl gap-6 px-4 py-14 sm:px-6 md:grid-cols-3">
           <div className="rounded-sm border border-navy/10 bg-cream p-6">
             <p className="font-display text-4xl font-semibold">13,000</p>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-[0.14em]">
+            <p className="label mt-2">
               Lots entitled and constructed
             </p>
           </div>
           <div className="rounded-sm border border-navy/10 bg-cream p-6">
             <p className="font-display text-4xl font-semibold">8+</p>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-[0.14em]">
+            <p className="label mt-2">
               Master plans developed
             </p>
           </div>
           <div className="rounded-sm border border-navy/10 bg-cream p-6">
             <p className="font-display text-4xl font-semibold">21 Years</p>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-[0.14em]">
+            <p className="label mt-2">
               VP-level land development experience
             </p>
             <p className="mt-3 text-sm leading-relaxed text-navy/75">
