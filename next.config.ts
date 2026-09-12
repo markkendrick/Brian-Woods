@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/wp-content/uploads/go-x/u/c1101687-ce4f-40b3-a621-3c77ec817f54/:path*",
-        destination: "/images/projects/about-1.jpg",
+        destination: "/images/projects/graded-lots.jpg",
         permanent: true,
       },
       {

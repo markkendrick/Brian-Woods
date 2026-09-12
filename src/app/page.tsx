@@ -170,7 +170,7 @@ export default function HomePage() {
           </ul>
         </div>
         <Image
-          src="/images/projects/home-3.jpg"
+          src="/images/projects/land-use-plan.jpg"
           alt="Color-corrected land use plan showing residential planning areas, open space, and a project summary"
           width={1024}
           height={1024}
@@ -218,7 +218,7 @@ export default function HomePage() {
       <section className="bg-paper">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2">
           <Image
-            src="/images/projects/about-1.jpg"
+            src="/images/projects/graded-lots.jpg"
             alt="Aerial view of graded residential lots, new roads, and a hillside development site"
             width={1024}
             height={1024}

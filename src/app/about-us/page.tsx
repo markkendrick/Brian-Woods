@@ -69,7 +69,7 @@ export default function AboutPage() {
         </div>
         <div className="grid gap-4">
           <Image
-            src="/images/projects/about-1.jpg"
+            src="/images/projects/graded-lots.jpg"
             alt="Aerial view of graded residential pads, new roads, and a hillside development"
             width={1024}
             height={1024}
