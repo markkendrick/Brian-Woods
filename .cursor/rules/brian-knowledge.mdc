@@ -1,0 +1,22 @@
+---
+description: Use Brian’s knowledge first, then clean wording. Follow the Southern California research for SEO geography.
+alwaysApply: true
+---
+
+# Brian’s knowledge first
+
+When writing site copy, SEO, or service-area content:
+
+1. Start from Brian’s knowledge in `docs/knowledge/` or notes he supplies.
+2. You may clarify grammar and structure. Do not add fees, timelines, approvals, parcel availability, office locations, or outcomes he did not provide.
+3. Treat research examples as precedents, not listings Brian owns or is selling.
+4. Do not create thin or duplicated city pages. Put local phrases on strong existing service pages.
+5. Prefer western Riverside first-round areas from `docs/knowledge/southern-california-residential-development.md`. Mark Winchester/French Valley as conditional on adopted rights.
+6. Target landowners and project decision-makers, not homebuyers searching “new homes in [city].”
+
+Example:
+
+```text
+❌ BAD: “We have approved 185 lots for sale in Perris.”
+✅ GOOD: “Public records show a 185-lot Perris project received an extension in April 2026. That is a useful scale example, not an available listing.”
+```

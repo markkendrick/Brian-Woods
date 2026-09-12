@@ -11,6 +11,7 @@ import {
   services,
   testimonials,
 } from "@/data/content";
+import { firstRoundAreas } from "@/data/service-areas";
 import { faqSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { formatPhoneDisplay, phoneTelHref, site } from "@/lib/site";
@@ -200,6 +201,26 @@ export default function HomePage() {
             ))}
           </ul>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <h2 className="font-display text-3xl font-semibold">
+          Western Riverside communities we focus on
+        </h2>
+        <p className="mt-4 max-w-3xl text-navy/80">
+          The first search is western Riverside County for landowners planning
+          housing communities of about 100–200 homes, with a separate apartment
+          screen in selected cities. These are areas of investigation and
+          landowner work, not a claim that a specific tract is for sale.
+        </p>
+        <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {firstRoundAreas.map((area) => (
+            <li key={area.name} className="rounded-sm border border-navy/10 bg-paper p-5">
+              <h3 className="font-display text-xl font-semibold">{area.name}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-navy/75">{area.summary}</p>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
