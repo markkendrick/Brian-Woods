@@ -22,6 +22,7 @@ export function Header() {
           href="/"
           className="flex shrink-0 items-center rounded-sm bg-paper"
           onClick={() => setOpen(false)}
+          aria-label={`${site.name} home`}
         >
           <Image
             src={site.logoPath}
@@ -59,6 +60,7 @@ export function Header() {
           className="inline-flex items-center rounded-sm border border-navy px-3 py-2 text-sm font-semibold lg:hidden"
           aria-expanded={open}
           aria-controls="mobile-nav"
+          aria-label={open ? "Close menu" : "Open menu"}
           onClick={() => setOpen((value) => !value)}
         >
           {open ? "Close" : "Menu"}

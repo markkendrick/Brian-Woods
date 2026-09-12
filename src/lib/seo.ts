@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { isStagingHost, site, toAbsoluteUrl } from "./site";
+import { site, toAbsoluteUrl } from "./site";
 
 const shareImage = {
   url: toAbsoluteUrl("/opengraph-image"),
@@ -23,9 +23,6 @@ export function buildMetadata({
     title: { absolute: title },
     description,
     alternates: { canonical: url },
-    robots: isStagingHost()
-      ? { index: false, follow: false }
-      : { index: true, follow: true },
     openGraph: {
       title,
       description,

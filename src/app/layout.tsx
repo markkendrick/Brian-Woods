@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
+import { headers } from "next/headers";
+import Script from "next/script";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
@@ -19,45 +21,54 @@ const sourceSerif = Source_Serif_4({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(`${site.url}/`),
-  title: {
-    default: site.name,
-    template: `%s | ${site.shortName}`,
-  },
-  description: site.description,
-  verification: { google: site.verification },
-  robots: isStagingHost()
-    ? { index: false, follow: false }
-    : { index: true, follow: true },
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    siteName: site.name,
-    url: toAbsoluteUrl("/"),
-  },
-};
+function hostIsStaging(host: string) {
+  return isStagingHost() || /hostingersite\.com|localhost|127\.0\.0\.1/i.test(host);
+}
 
-export default function RootLayout({
+export async function generateMetadata(): Promise<Metadata> {
+  const host = (await headers()).get("host") ?? "";
+  const staging = hostIsStaging(host);
+
+  return {
+    metadataBase: new URL(`${site.url}/`),
+    title: {
+      default: site.name,
+      template: `%s | ${site.shortName}`,
+    },
+    description: site.description,
+    verification: { google: site.verification },
+    robots: staging
+      ? { index: false, follow: false }
+      : { index: true, follow: true },
+    openGraph: {
+      type: "website",
+      locale: "en_US",
+      siteName: site.name,
+      url: toAbsoluteUrl("/"),
+    },
+  };
+}
+
+export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  const staging = isStagingHost();
+  const host = (await headers()).get("host") ?? "";
+  const staging = hostIsStaging(host);
 
   return (
     <html lang="en" className={`${sourceSans.variable} ${sourceSerif.variable}`}>
-      <head>
+      <body className="min-h-screen bg-cream font-body text-navy">
         {!staging ? (
           <>
-            <script async src={`https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}`} />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${site.analyticsId}');`,
-              }}
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}`}
+              strategy="afterInteractive"
             />
+            <Script id="ga-gtag" strategy="afterInteractive">
+              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${site.analyticsId}');`}
+            </Script>
           </>
         ) : null}
-      </head>
-      <body className="min-h-screen bg-cream font-body text-navy">
         <JsonLd data={[organizationSchema(), websiteSchema()]} />
         <a className="skip-link" href="#main">
           Skip to content

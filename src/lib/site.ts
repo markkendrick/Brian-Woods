@@ -22,7 +22,7 @@ export const site = {
   legalName: "Land Development Specialists LLC",
   founder: "Brian Woods",
   description:
-    "Plan and manage successful development projects with a trusted land development consultant in Huntington Beach and Los Angeles. Explore professional solutions today!",
+    "Residential land development services for landowners in Southern California. Consulting, subdivision development, and project management for communities of about 100–200 homes.",
   url: resolveSiteUrl(),
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "brian@landDevSpec.net",
   phone: process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "(760) 271-1081",

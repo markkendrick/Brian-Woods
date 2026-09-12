@@ -39,7 +39,7 @@ export const pages = [
   },
   {
     path: "/services/",
-    title: "Services",
+    title: "Land Development Services | Land Development Specialists",
     description:
       "Land development services from Land Development Specialists LLC, including acquisition review, plan approval, permitting, value engineering, and project management.",
     h1: "Services",
