@@ -24,7 +24,7 @@ export function Header() {
             alt={site.logoAlt}
             width={site.logoWidth}
             height={site.logoHeight}
-            className="h-12 w-auto max-w-[16rem] object-contain sm:h-14 sm:max-w-[20rem]"
+            className="h-16 w-auto max-w-[20rem] object-contain sm:h-20 sm:max-w-[28rem]"
             priority
           />
         </Link>
