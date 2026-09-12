@@ -171,11 +171,11 @@ export default function HomePage() {
         </div>
         <Image
           src="/images/projects/home-3.jpg"
-          alt="Graded hillside lots and new streets prepared for residential construction"
-          width={768}
-          height={768}
+          alt="Color-corrected land use plan showing residential planning areas, open space, and a project summary"
+          width={1024}
+          height={1024}
           sizes="(max-width: 1024px) 100vw, 50vw"
-          className="h-auto w-full rounded-sm object-cover"
+          className="h-auto w-full rounded-sm bg-paper object-contain"
         />
       </section>
 
