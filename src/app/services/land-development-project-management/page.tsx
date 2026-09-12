@@ -95,7 +95,7 @@ export default function ProjectManagementPage() {
 
       <section className="border-b border-navy/10 bg-cream-deep">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-          <p className="label text-gold-deep">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gold-deep">
             Services
           </p>
           <h1 className="mt-3 max-w-4xl font-display text-4xl font-semibold leading-tight sm:text-5xl">
