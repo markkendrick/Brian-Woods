@@ -12,6 +12,8 @@ Brian helps an owner make the best use of the land. That includes entitlementsâ€
 
 Land development prepares the land and infrastructure. Building construction creates the homes, apartments, or other structures. The two must be coordinated from the beginning.
 
+**Horizontal vs vertical:** Horizontal development is the land and infrastructure work: grading, roads, drainage, underground utilities, street improvements, and utility connections that serve the buildings. Vertical construction is foundations and the buildings. The schedule must show which horizontal improvements need to be ready before buildings start. The budget should define where each category starts and ends so work is neither missed nor counted twice.
+
 ## What a land development specialist does
 
 A land development specialist helps an owner understand the options, costs, risks, and steps needed to move a property forward. That includes making the best use of the land, improving the potential return, and controlling development costs through a realistic budget, a coordinated team, and a schedule that supports the ownerâ€™s goals.

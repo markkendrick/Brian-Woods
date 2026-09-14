@@ -63,14 +63,22 @@ export const pages = [
       "Residential subdivision development in Riverside County for landowners and builders. Subdivisions of 50 to 200 lots, entitlements, infrastructure, and finished-lot delivery.",
     h1: "Residential Subdivision Development",
   },
+  {
+    path: "/services/land-development-feasibility-study/",
+    title:
+      "Land Development Feasibility Study Riverside County | Land Development Specialists",
+    description:
+      "Land development feasibility and due diligence in Riverside County. Review permitted use, utilities, access, costs, and whether a site can support homes or apartments before you buy.",
+    h1: "Land Development Feasibility Study",
+  },
 ] as const;
 
 export const services = [
   {
     title: "Land Acquisition & Due Diligence",
-    href: "/contact-us/",
+    href: "/services/land-development-feasibility-study/",
     summary:
-      "Evaluate development risk, budgets, schedules, project requirements, and available fee credits before major commitments are made.",
+      "Screen a site before purchase: permitted use, access, utilities, drainage, soils, environmental concerns, expected approvals, and total development costs.",
   },
   {
     title: "Residential Subdivision Development",
@@ -127,7 +135,7 @@ export const involvement = [
   {
     title: "Before acquisition",
     summary:
-      "Review risk, budgets, schedules, fee credits, and development requirements.",
+      "Review risk, budgets, schedules, permitted use, utilities, access, and development costs before a purchase.",
   },
   {
     title: "During approvals",
@@ -178,7 +186,7 @@ export const homeFaqs = [
   {
     question: "Can you help evaluate land before I purchase it?",
     answer:
-      "Yes. We can review development risks, budgets, schedules, project requirements, and available fee credits before you make a major commitment.",
+      "Yes. Before a purchase we review permitted use, legal access, title restrictions, utilities, drainage, soils, environmental concerns, expected approvals, and total development costs.",
   },
   {
     question: "Can I hire you for only one phase of a project?",
@@ -213,7 +221,7 @@ export const homeFaqs = [
   {
     question: "What information should I provide for an initial discussion?",
     answer:
-      "Tell us where the project stands, what has already been completed, and where you need support. Available plans, budgets, schedules, approval status, and consultant information are helpful when they exist.",
+      "Start with the address, parcel number, acreage, ownership or purchase status, intended use, target schedule, and available budget. Surveys, title documents, plans, utility information, and previous studies help if they exist.",
   },
 ];
 
@@ -280,5 +288,43 @@ export const subdivisionFaqs = [
     question: "Can you take over a subdivision that is already underway?",
     answer:
       "Yes. We first establish what has been completed, what remains, what is causing problems, and which decisions need immediate attention, then build a recovery plan.",
+  },
+  {
+    question: "What is the difference between horizontal development and vertical construction?",
+    answer:
+      "Horizontal development prepares the land and infrastructure: grading, roads, drainage, underground utilities, street improvements, and utility connections. Vertical construction is foundations and the buildings. The schedule should show which site improvements must be ready before building starts, and the budget should define where each category starts and ends so work is neither missed nor counted twice.",
+  },
+];
+
+export const feasibilityFaqs = [
+  {
+    question: "What should someone evaluate before purchasing land for development?",
+    answer:
+      "Evaluate permitted use, legal access, title restrictions, boundaries, utilities, drainage, soils, environmental concerns, expected approvals, and total development costs. The homes or apartments also need to fit the local market.",
+  },
+  {
+    question: "What information do you need to begin reviewing a potential development site?",
+    answer:
+      "Address, parcel number, acreage, ownership or purchase status, intended use, target schedule, and available budget. Surveys, title documents, plans, utility information, agency correspondence, and previous studies help if they exist.",
+  },
+  {
+    question: "Does residential zoning mean a subdivision will work?",
+    answer:
+      "No. Zoning alone does not mean the proposed project will work. We still need to determine whether the intended development fits the zoning and general plan, or whether changes would be needed, and whether utilities, access, drainage, and costs support it.",
+  },
+  {
+    question: "Does permission to build apartments make a project financially workable?",
+    answer:
+      "No. We still compare achievable rents with total development and operating costs, and test whether buildings, parking, circulation, utilities, and fire access can fit the site.",
+  },
+  {
+    question: "Why can inexpensive land be costly to develop?",
+    answer:
+      "Low-priced land may need long utility extensions, major earthwork, retaining walls, access agreements, drainage improvements, or environmental cleanup. A low asking price is not a good deal if those improvements consume the land’s development value.",
+  },
+  {
+    question: "What should never be assumed from a property listing alone?",
+    answer:
+      "Never assume that zoning allows the advertised use, nearby utilities have capacity, access is legally adequate, or an advertised unit count has been approved. Those claims need due diligence.",
   },
 ];

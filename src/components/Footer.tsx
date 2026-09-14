@@ -34,6 +34,11 @@ export function Footer() {
               </li>
             ))}
             <li>
+              <Link className="underline decoration-gold/50 underline-offset-2 hover:decoration-gold" href="/services/land-development-feasibility-study/">
+                Land Development Feasibility Study
+              </Link>
+            </li>
+            <li>
               <Link className="underline decoration-gold/50 underline-offset-2 hover:decoration-gold" href="/services/residential-subdivision-development/">
                 Residential Subdivision Development
               </Link>

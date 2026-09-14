@@ -24,7 +24,8 @@ Originals stay in `~/Desktop/LDSLLC Photos`. Web copies (longest side 1600px) ar
 | --- | --- | --- |
 | `/images/library/windsong-skylar-177-lots-min-4500-5500-sf.jpg` | Windsong-Skylar, 177 lots | `/services/residential-subdivision-development/` |
 | `/images/library/citrus-summit-drone-8-1-24.jpg` | Citrus Summit | Subdivision |
-| `/images/library/dolfina-drone-shot-2-29-24.jpg` | Dolfina | Subdivision or feasibility |
+| `/images/library/dolfina-drone-shot-2-29-24.jpg` | Dolfina | `/services/land-development-feasibility-study/` |
+| `/images/library/360-3268.jpg` | Unnamed hillside tract aerial | Feasibility; do not add a city |
 | `/images/library/dahlia-phase-3-4-5-fill-refinish-lots-3-27-25.jpg` | Dahlia Phases 3–5 | Subdivision, infrastructure, or unfinished work |
 | `/images/library/model-bo-lots-clean-off-spin.jpg` | Model BO lots | Subdivision or project management |
 | `/images/library/windsong-alessandro-2-29-24.jpg` | Windsong Alessandro | Subdivision, PM, or infrastructure |
@@ -39,7 +40,6 @@ Originals stay in `~/Desktop/LDSLLC Photos`. Web copies (longest side 1600px) ar
 | `/images/library/bella-sera-oliver-existing-street-r-r-at-site-church-entrance.jpg` | Bella Sera street R&R | Infrastructure or PM |
 | `/images/library/deerlake-poema-bridge-clubhouse.jpg` | Deerlake Poema bridge and clubhouse | Finished-community image; name it |
 | `/images/library/conveyor-removed-11-17-17.jpg` | Conveyor removed (bridge piers) | PM or infrastructure |
-| `/images/library/360-3268.jpg` | Unnamed hillside tract aerial | Subdivision; do not add a city |
 | `/images/library/dji-0001.jpg` | Clubhouse, courts, and remaining pads | Approved/unbuilt or remaining phases |
 | `/images/library/img-4035.jpg` | Finished canyon bridge | PM or infrastructure |
 
@@ -61,8 +61,8 @@ Originals stay in `~/Desktop/LDSLLC Photos`. Web copies (longest side 1600px) ar
 
 | Page order | Use these photos |
 | --- | --- |
-| 3 Subdivision | Windsong-Skylar, Citrus Summit, Dolfina, Model BO lots, 360-3268 |
-| 4 Feasibility | Dolfina grading; unnamed pad/aerials if needed |
+| 3 Subdivision | Windsong-Skylar, Citrus Summit, Model BO lots |
+| 4 Feasibility | Dolfina grading; 360-3268 hillside aerial |
 | 5 Entitlements | Land-use plan already on the homepage; do not force a construction photo |
 | 6 Multifamily | None labeled as apartments yet |
 | 7–15 Inland markets | Only if Brian later names the city |

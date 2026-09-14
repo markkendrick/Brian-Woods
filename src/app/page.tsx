@@ -154,7 +154,9 @@ export default function HomePage() {
                     ? "Project management details"
                     : service.href === "/services/residential-subdivision-development/"
                       ? "Subdivision details"
-                      : "Discuss this service"}
+                      : service.href === "/services/land-development-feasibility-study/"
+                        ? "Feasibility details"
+                        : "Discuss this service"}
                 </Link>
               </li>
             ))}

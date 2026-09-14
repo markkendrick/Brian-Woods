@@ -7,6 +7,7 @@ Do not put the Southern California research report here. That file is an SEO tar
 | File | Use |
 | --- | --- |
 | `land-development-basics.md` | Brian’s Q&A. Primary source for URL and SEO copy |
+| `acquisition-feasibility.md` | Purchase review, site suitability, residual value, and feasibility |
 | `facts.md` | Numbers and ranges to keep consistent across pages |
 | `photos.md` | Photos Brian has supplied, where they are used, and which later pages they fit |
 | `projects.md` | Project names and facts taken from Brian’s photo filenames |

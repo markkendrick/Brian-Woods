@@ -23,5 +23,8 @@ From `land-development-basics.md` and earlier site notes. If two sources disagre
 | Corona bridges | Precast arch culverts, about 48-foot spans, about six months |
 | Lift station | About 3,800 units of capacity, including a 1,400-unit community |
 | Windsong-Skylar | 177 lots; min 4,500 and 5,500 SF |
+| Residual land value | Start with finished-lot value, then subtract development costs, fees, financing, and required return |
+| Sewer and water fees (example only) | On some properties evaluated, about $25,000 to $30,000 per unit; not a standard quote |
 
 Do not write exact fees, timelines, or cities Brian did not supply. Do not say he owns the construction equipment in photos.
+Do not present the $25,000–$30,000 figure as a typical or current fee.
