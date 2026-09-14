@@ -8,7 +8,7 @@ Facts taken from filenames in Brian’s LDSLLC Photos folder. Do not add cities,
 - Minimum lot sizes 4,500 SF and 5,500 SF
 - Photo shows graded pads, new streets, and silt fencing
 
-Use on the Riverside County subdivision page (about 100–200 homes).
+Use on the Riverside County subdivision page (50 to 200 lots).
 
 ## Windsong Alessandro
 

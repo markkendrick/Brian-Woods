@@ -8,7 +8,7 @@ Audience: landowners and project decision-makers. Not homebuyers.
 
 Lead sequence from Mark: land development consulting → subdivision development → project management → strongest inland markets.
 
-Preferred scale on the first six service pages: about 100–200 homes or lots.
+Preferred scale on service pages, from Brian: subdivisions of **50 to 200 lots**; apartment sites of about **50 to 200 units**. Master plans of about **1,000 to 2,000** homes or units. Exact “100 lot” / “200 lot” phrases stay supporting copy.
 
 ## Existing URLs to improve first
 
@@ -22,7 +22,7 @@ Preferred scale on the first six service pages: about 100–200 homes or lots.
 
 | Next | Main target | Proposed path | Supporting phrases |
 | --- | --- | --- | --- |
-| 3 | residential subdivision development Riverside County | `/services/residential-subdivision-development/` | residential subdivision developer; subdivision development company; develop my land into a housing community |
+| 3 | residential subdivision development Riverside County | `/services/residential-subdivision-development/` | Created. Supporting: residential subdivision developer; subdivision development company; develop my land into a housing community |
 | 4 | land development feasibility study Riverside County | `/services/land-development-feasibility-study/` | residential subdivision feasibility study; due diligence; lot yield analysis |
 | 5 | residential land entitlement services Riverside County | `/services/residential-land-entitlements/` | residential entitlement consultant; tentative tract map consultant |
 | 6 | multifamily development consultant Southern California | `/services/multifamily-development/` | apartment development company; garden style / two-story apartment development |
@@ -58,4 +58,4 @@ No labeled apartment photos yet. No city-named inland photos yet.
 
 ## Next page to create
 
-After the homepage and project-management page are retargeted: **residential subdivision development Riverside County**.
+**Land development feasibility study, Riverside County.** Proposed path: `/services/land-development-feasibility-study/`.

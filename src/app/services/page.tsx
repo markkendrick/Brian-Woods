@@ -34,9 +34,9 @@ export default function ServicesPage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <h1 className="font-display text-4xl font-semibold sm:text-5xl">{page.h1}</h1>
           <p className="mt-5 max-w-3xl text-lg text-navy/80">
-            The live Services page listed Land Development Project Management as
-            the dedicated service page. The topics below are the service areas
-            already described on the homepage.
+            Dedicated service pages cover residential subdivision development and
+            land development project management. The topics below are the service
+            areas described across the site.
           </p>
         </div>
       </section>
@@ -53,7 +53,9 @@ export default function ServicesPage() {
               >
                 {service.href === "/services/land-development-project-management/"
                   ? "Open the project management page"
-                  : "Discuss this service"}
+                  : service.href === "/services/residential-subdivision-development/"
+                    ? "Open the subdivision page"
+                    : "Discuss this service"}
               </Link>
             </li>
           ))}

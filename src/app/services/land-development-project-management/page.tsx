@@ -211,11 +211,12 @@ export default function ProjectManagementPage() {
           Development Leadership Behind the Management
         </h2>
         <p className="mt-4 max-w-3xl text-navy/80">
-          Land Development Specialists brings more than 30 years of land
+          Land Development Specialists brings more than 40 years of land
           development experience, including 13,000 lots entitled and constructed,
-          8+ master plans developed, and 21 years in Vice President-level land
-          development roles with D.R. Horton, Foremost Communities, Pulte/Del
-          Webb, and Richmond American Homes.
+          8+ master plans developed, and senior leadership with public and
+          private builders. That includes Vice President-level land development
+          roles with D.R. Horton, Foremost Communities, Pulte/Del Webb, and
+          Richmond American Homes.
         </p>
         <p className="mt-4 max-w-3xl text-navy/80">
           That experience gives clients working with a land development

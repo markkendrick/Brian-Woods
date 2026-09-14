@@ -44,21 +44,24 @@ export default function AboutPage() {
             Professionals in Land Development
           </h2>
           <p className="mt-5 text-navy/85">
-            At {site.name}, we bring over three decades of hands-on experience in
+            At {site.name}, we bring more than 40 years of hands-on experience in
             the real estate development sector. On tracts or large master plans.
           </p>
           <p className="mt-4 text-navy/85">
-            We are dedicated to assisting clients through any phase of land
-            acquisition, entitlement, and construction. We specialize in value
-            engineering, ensuring that projects not only meet but exceed
-            expectations in terms of quality and cost efficiency.
+            We assist clients through land acquisition, entitlements, and
+            construction. Value engineering reviews the design and construction
+            approach to reduce costs while keeping the project’s function and
+            quality.
           </p>
           <p className="mt-4 text-navy/85">
-            Brian Woods leads the work, drawing on 21 years as Vice President of
-            Land Development for D.R. Horton, Foremost Communities, Pulte/Del
-            Webb, and Richmond American Homes. That background includes 13,000
-            lots entitled and constructed and more than eight master plans
-            developed.
+            Brian Woods leads the work. His career began in England with a degree
+            in civil and structural design. He moved to Southern California in
+            1982. The work since then includes more than 13,000 residential lots,
+            more than eight master-planned communities, and a California Class A
+            General Engineering Contractor license. About 20 years of that
+            career were in senior leadership with public builders, including
+            Vice President-level land development roles with D.R. Horton,
+            Foremost Communities, Pulte/Del Webb, and Richmond American Homes.
           </p>
           <Link
             href="/services/"

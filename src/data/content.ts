@@ -4,7 +4,7 @@ export const pages = [
     title:
       "Land Development Consultant Southern California | Land Development Specialists",
     description:
-      "Residential land development services for landowners in Southern California. Consulting, subdivision development, and project management for communities of about 100–200 homes.",
+      "Residential land development services for landowners in Southern California. Consulting, subdivision development, and project management for communities of 50 to 200 lots.",
     h1: "Transforming Land Into Thriving Communities",
   },
   {
@@ -50,10 +50,18 @@ export const pages = [
     title:
       "Land Development Project Management Riverside County | Land Development Specialists",
     description:
-      "Residential development management and owner-representative project management in Riverside County for subdivisions of about 100–200 homes.",
+      "Residential development management and owner-representative project management in Riverside County for subdivisions of 50 to 200 lots.",
     h1: "End-to-End Land Development Project Management",
     descriptionNote:
       "The live page had a title and H1. This description restates the visible lead text.",
+  },
+  {
+    path: "/services/residential-subdivision-development/",
+    title:
+      "Residential Subdivision Development Riverside County | Land Development Specialists",
+    description:
+      "Residential subdivision development in Riverside County for landowners and builders. Subdivisions of 50 to 200 lots, entitlements, infrastructure, and finished-lot delivery.",
+    h1: "Residential Subdivision Development",
   },
 ] as const;
 
@@ -63,6 +71,12 @@ export const services = [
     href: "/contact-us/",
     summary:
       "Evaluate development risk, budgets, schedules, project requirements, and available fee credits before major commitments are made.",
+  },
+  {
+    title: "Residential Subdivision Development",
+    href: "/services/residential-subdivision-development/",
+    summary:
+      "Plan, entitle, and deliver residential subdivisions of 50 to 200 lots, including finished lots sequenced for home construction.",
   },
   {
     title: "Plan Approval & Permitting",
@@ -189,7 +203,7 @@ export const homeFaqs = [
   {
     question: "What is value engineering in land development?",
     answer:
-      "It is the review of plans, construction methods, sequencing, and bids to find practical ways to control costs and improve efficiency.",
+      "It is the review of the design and construction approach to find ways to reduce costs while keeping the project’s function and quality.",
   },
   {
     question: "What happens before land construction begins?",
@@ -233,5 +247,38 @@ export const managementFaqs = [
     question: "What should we provide before project management begins?",
     answer:
       "Share available plans, budgets, schedules, approval status, consultant information, and known project issues.",
+  },
+];
+
+export const subdivisionFaqs = [
+  {
+    question: "What is land development?",
+    answer:
+      "Land development turns a parcel of land into a property that can support homes, apartments, or another approved use. It includes studying what can be built, securing approvals, and preparing roads, drainage, utilities, and building areas.",
+  },
+  {
+    question: "Can my land be developed into a subdivision?",
+    answer:
+      "That depends on what can be approved and built on the parcel. We help an owner evaluate options, costs, risks, entitlements, and the infrastructure needed to move the property forward.",
+  },
+  {
+    question: "What size subdivisions do you handle?",
+    answer:
+      "Residential subdivisions of 50 to 200 lots, as well as larger home communities and master-planned communities of about 1,000 to 2,000 homes. A major part of the work is delivering finished lots in the right sequence so builders can start homes on schedule.",
+  },
+  {
+    question: "When should a property owner contact you?",
+    answer:
+      "Usually before purchasing the land or committing to a specific design. At that stage we can help evaluate the proposed homes, infrastructure needs, development fees, and other major costs.",
+  },
+  {
+    question: "What is the difference between land development and building construction?",
+    answer:
+      "Land development prepares the land and infrastructure for its intended use. Building construction creates the homes. The two parts must be coordinated from the beginning so the buildings and site improvements work together.",
+  },
+  {
+    question: "Can you take over a subdivision that is already underway?",
+    answer:
+      "Yes. We first establish what has been completed, what remains, what is causing problems, and which decisions need immediate attention, then build a recovery plan.",
   },
 ];

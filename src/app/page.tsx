@@ -52,7 +52,7 @@ export default function HomePage() {
             <p className="mt-5 text-lg leading-relaxed text-navy/85">
               {site.name} works with developers and landowners through land
               acquisition, plan approvals, permitting, value engineering, and
-              construction management. With more than three decades of hands-on
+              construction management. With more than 40 years of hands-on
               experience, we help evaluate risk, build realistic budgets and
               schedules, coordinate the moving parts, and keep development work
               moving toward completion.
@@ -112,7 +112,7 @@ export default function HomePage() {
         <div>
           <h2 className="font-display text-3xl font-semibold">Experience you can trust</h2>
           <p className="mt-5 text-lg leading-relaxed text-navy/85">
-            With over thirty years in the industry, we specialize in land
+            With more than 40 years in the industry, we specialize in land
             purchasing, plan approval, and permitting, and we keep construction
             management organized so work can stay on schedule. Value engineering
             and budgeting help keep projects efficient and cost-effective.
@@ -152,7 +152,9 @@ export default function HomePage() {
                 <Link href={service.href} className="mt-4 inline-block text-sm font-semibold underline underline-offset-4">
                   {service.href === "/services/land-development-project-management/"
                     ? "Project management details"
-                    : "Discuss this service"}
+                    : service.href === "/services/residential-subdivision-development/"
+                      ? "Subdivision details"
+                      : "Discuss this service"}
                 </Link>
               </li>
             ))}
@@ -166,7 +168,7 @@ export default function HomePage() {
             Experience across the development process
           </h2>
           <p className="mt-4 text-navy/80">
-            With more than 30 years in land development, {site.name} brings
+            With more than 40 years in land development, {site.name} brings
             practical experience across acquisition, approvals, infrastructure,
             and construction.
           </p>
