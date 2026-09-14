@@ -327,4 +327,24 @@ export const feasibilityFaqs = [
     answer:
       "Never assume that zoning allows the advertised use, nearby utilities have capacity, access is legally adequate, or an advertised unit count has been approved. Those claims need due diligence.",
   },
+  {
+    question: "How do you assess whether a proposed development concept is realistic?",
+    answer:
+      "We test the concept against land-use requirements, physical constraints, infrastructure needs, construction methods, available funding, and market conditions. Where something is uncertain, the right specialist investigates, and we adjust the concept before treating it as a workable plan.",
+  },
+  {
+    question: "What costs beyond the land purchase price should a buyer investigate?",
+    answer:
+      "Consultants, entitlements, permits, agency fees, utility charges, off-site improvements, grading, environmental work, construction, financing, taxes, insurance, and contingency. For homes or apartments, include building costs and selling expenses or lease-up costs.",
+  },
+  {
+    question: "What does the client receive at the end of an acquisition review?",
+    answer:
+      "A site summary, preliminary concept findings, cost and schedule ranges, key risks, unresolved questions, recommended next steps, and the consultant reports and preliminary design information needed for the main acquisition concerns.",
+  },
+  {
+    question: "What separates a promising development opportunity from one that only looks attractive on paper?",
+    answer:
+      "A promising opportunity has a practical approval path, workable infrastructure, realistic costs, and homes or apartments the market can support. Major assumptions have been tested. If the project depends on rising future prices or rents to become profitable, that needs to be clearly understood.",
+  },
 ];

@@ -1,6 +1,6 @@
 # Acquisition, feasibility, and site review
 
-Source: Brian Wood Q&A (questions 12, 41–62, and 66). Cleaned for site use. Do not invent fees, cities, or outcomes beyond this file.
+Source: Brian Wood Q&A (questions 12, 41–62, and 66–80). Cleaned for site use. Do not invent fees, cities, or outcomes beyond this file.
 
 Use this file for `/services/land-development-feasibility-study/` and for acquisition copy on other URLs.
 
@@ -161,3 +161,75 @@ Most work begins with owners who already own land or have a specific property to
 An initial review needs parcel records, the intended housing product, planning rules, available site studies, utility information, a preliminary lot or unit count, cost assumptions, and a proposed schedule.
 
 The review should clearly distinguish verified information from estimates. It should also identify missing information and explain which findings could materially change the result.
+
+## Whether a concept is realistic (Q67)
+
+Test the concept against land-use requirements, physical constraints, infrastructure needs, construction methods, available funding, and market conditions.
+
+Where there are uncertainties, bring in the appropriate specialist. Adjust the concept before treating it as a workable development plan.
+
+## Assumptions that change the financial outlook (Q68)
+
+Identify assumptions that could significantly affect the outcome, including unit count, grading quantities, utility capacity, approval timing, financing costs, and expected revenue.
+
+Test reasonable changes to those assumptions, individually and together, to see which have the greatest effect on feasibility.
+
+A realistic schedule is especially important. The time needed for entitlements, permits, and construction directly affects interest costs and how long the owner’s money remains invested.
+
+## When detailed plans are not yet available (Q69)
+
+Use parcel records, site visits, available mapping, utility-provider inquiries, and a preliminary layout.
+
+Based on experience, Brian can prepare preliminary exhibits showing streets, sewer, water, and storm-drain layouts. These help establish likely infrastructure needs and support an initial cost estimate.
+
+Then prepare cost and schedule ranges and identify the investigations needed to refine them. Conclusions should clearly reflect what remains unconfirmed.
+
+## Purchase price vs development requirements (Q70–Q72)
+
+Compare the purchase price with the full cost of approvals, site improvements, building construction, financing, and carrying the project through completion. That analysis helps determine what the finished project can support paying for the land while meeting the owner’s required return.
+
+As improvement costs increase, residual value available for the land generally decreases. Sellers may have a price in mind that does not reflect those costs. A detailed development analysis gives the buyer a practical basis for discussing the purchase price.
+
+Costs beyond the land purchase: consultants, entitlements, permits, agency fees, utility charges, off-site improvements, grading, environmental work, construction, financing, taxes, insurance, and contingency. For homes or apartments, include building costs using appropriate construction estimates, including cost per square foot where useful, plus selling expenses or apartment lease-up costs. The goal is the complete project cost, with a clear definition of what the estimate includes.
+
+Off-site roads, drainage, and utility improvements can add substantial costs. They may also depend on agency approvals, property rights, or agreements with other owners. Evaluate likely scope, who is responsible, required rights, and time to complete. Agency conditions of approval can create off-site obligations. Allow contingency for unanswered questions. Those costs affect both feasibility and what the buyer can afford to pay for the land.
+
+## Approval path and agency differences (Q73)
+
+Approval requirements affect what can be built, which studies are needed, how long the process may take, and how much money must be committed before construction.
+
+Work with the agency and consultants to establish the likely approval path. That helps the buyer align purchase decisions and funding milestones with the development process.
+
+Agencies differ in procedures, review practices, and responsiveness. Those differences need to be reflected in the strategy and schedule.
+
+## Letter of intent and purchase milestones (Q74–Q75)
+
+During the letter of intent stage, identify development assumptions, information needs, and investigation time the buyer should consider. Prepare a detailed list of issues to investigate or resolve. That list helps define due-diligence scope, consultants needed, and a realistic review period. The buyer and their advisors can use it when establishing proposed transaction terms.
+
+For purchase-agreement milestones, the buyer needs to understand which studies, agency responses, and utility confirmations can realistically be completed before each deadline. Prepare a detailed investigation and development schedule covering relevant approval, permitting, and construction steps. That helps identify unresolved risks before important decisions are due. The schedule also supports a cash-flow forecast showing when investigation and development expenses are expected. The buyer and their attorney can use this to evaluate purchase deadlines.
+
+## Organizing due diligence (Q76–Q78)
+
+Create a due-diligence checklist that identifies each issue, the responsible consultant, the required report or response, the cost, and the deadline. Prepare an initial due-diligence budget so the buyer understands expected expense and timing.
+
+High-impact investigations start early. Track activities that depend on one another and hold review meetings before the buyer must make a contractual decision. More complex properties generally require more extensive investigations, which increases both budget and time.
+
+When time is limited, investigate potential deal breakers first: legal access, intended use, major site hazards, utility capacity, and unusually expensive improvements. Studies with long lead times need to start promptly. Identify which questions can realistically be answered in the review period. Review each consultant’s scope and separate essential acquisition work from tasks that can wait until entitlements or later design. That helps control due-diligence costs while keeping attention on the purchase decision.
+
+A preliminary site evaluation should clearly identify unconfirmed unit counts, soil conditions, access rights, utility capacity, fees, off-site obligations, approval timing, and development costs. For each unknown, explain its potential effect and what information is needed to resolve it. Zoning and a preliminary layout can support an initial unit estimate. Local soils engineers may provide useful background, but site-specific conditions still need investigation. Title documents help evaluate access. Utility providers can address capacity. Agency fee schedules are a starting point for fees. Identify each finding as preliminary or confirmed.
+
+## What the client receives (Q79)
+
+The client receives a site summary, preliminary concept findings, cost and schedule ranges, key risks, unresolved questions, and recommended next steps.
+
+The review also includes the consultant reports and preliminary design information needed to address the main acquisition concerns.
+
+The purpose is a clear basis for deciding whether to proceed, investigate further, reconsider the purchase terms, or stop.
+
+## Promising opportunity vs paper-only (Q80)
+
+A promising opportunity has a practical approval path, workable infrastructure, realistic costs, and homes or apartments that the market can support.
+
+Its major assumptions have been tested through technical review, agency discussions, and financial analysis.
+
+Look carefully at assumed increases in future sales prices or rents. If a project depends on rising values to become profitable, that needs to be clearly understood. Testing the project without assumed price growth helps show whether the opportunity remains workable if the market does not improve.
