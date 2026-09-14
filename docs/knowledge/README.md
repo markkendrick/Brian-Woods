@@ -1,8 +1,12 @@
 # Brian knowledge base
 
-This folder is for facts Brian supplies over time: his experience, services, process, and anything he wants on the site.
+This folder is for facts Brian supplies over time: his experience, services, process, photos, and anything he wants on the site.
 
 Do not put the Southern California research report here. That file is an SEO targeting roadmap in `docs/seo/`.
+
+| File | Use |
+| --- | --- |
+| `photos.md` | Photos Brian has supplied, where they are used, and which later pages they fit |
 
 ## How we write site content
 

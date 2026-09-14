@@ -108,22 +108,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <h2 className="font-display text-3xl font-semibold">Experience you can trust</h2>
-        <p className="mt-5 max-w-3xl text-lg leading-relaxed text-navy/85">
-          With over thirty years in the industry, we specialize in land
-          purchasing, plan approval, and permitting, and we keep construction
-          management organized so work can stay on schedule. Value engineering
-          and budgeting help keep projects efficient and cost-effective.
-        </p>
-        <p className="mt-4 max-w-3xl text-navy/80">
-          That includes 21 years in Vice President-level land development roles
-          with D.R. Horton, Foremost Communities, Pulte/Del Webb, and Richmond
-          American Homes.
-        </p>
-        <Link href="/about-us/" className="mt-6 inline-block font-semibold underline underline-offset-4">
-          Learn more about who we are
-        </Link>
+      <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2">
+        <div>
+          <h2 className="font-display text-3xl font-semibold">Experience you can trust</h2>
+          <p className="mt-5 text-lg leading-relaxed text-navy/85">
+            With over thirty years in the industry, we specialize in land
+            purchasing, plan approval, and permitting, and we keep construction
+            management organized so work can stay on schedule. Value engineering
+            and budgeting help keep projects efficient and cost-effective.
+          </p>
+          <p className="mt-4 text-navy/80">
+            That includes 21 years in Vice President-level land development roles
+            with D.R. Horton, Foremost Communities, Pulte/Del Webb, and Richmond
+            American Homes.
+          </p>
+          <Link href="/about-us/" className="mt-6 inline-block font-semibold underline underline-offset-4">
+            Learn more about who we are
+          </Link>
+        </div>
+        <Image
+          src="/images/projects/haul-truck.jpg"
+          alt="Brian Woods standing on a Caterpillar haul truck at a land development site"
+          width={1024}
+          height={768}
+          sizes="(max-width: 1024px) 100vw, 50vw"
+          className="h-auto w-full rounded-sm object-cover"
+        />
       </section>
 
       <section className="bg-paper">
@@ -198,6 +208,43 @@ export default function HomePage() {
                 <p className="mt-3 text-navy/80">{item.summary}</p>
               </li>
             ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-paper">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+          <ul className="grid gap-4 md:grid-cols-3">
+            <li>
+              <Image
+                src="/images/projects/scraper-grading.jpg"
+                alt="Motor scraper grading a street alignment next to existing homes"
+                width={1024}
+                height={768}
+                sizes="(max-width: 768px) 100vw, 33vw"
+                className="aspect-[4/3] h-auto w-full rounded-sm object-cover"
+              />
+            </li>
+            <li>
+              <Image
+                src="/images/projects/loader-boulder.jpg"
+                alt="Wheel loader carrying a large boulder during site earthwork"
+                width={1024}
+                height={768}
+                sizes="(max-width: 768px) 100vw, 33vw"
+                className="aspect-[4/3] h-auto w-full rounded-sm object-cover"
+              />
+            </li>
+            <li>
+              <Image
+                src="/images/projects/brian-dozer.jpg"
+                alt="Brian Woods standing in front of a Caterpillar bulldozer on a development site"
+                width={1024}
+                height={768}
+                sizes="(max-width: 768px) 100vw, 33vw"
+                className="aspect-[4/3] h-auto w-full rounded-sm object-cover"
+              />
+            </li>
           </ul>
         </div>
       </section>
