@@ -45,6 +45,17 @@ Owner questions that overlap a service page belong on that page as FAQs, not as 
 - Broad Los Angeles targeting: later
 - Winchester / French Valley: only with existing adopted rights
 
+## Photo support
+
+Brian’s labeled job photos are in `docs/knowledge/photos.md`. Use them on these URLs. Do not create a page per photo.
+
+- Subdivision: Windsong-Skylar (177 lots), Citrus Summit, Dolfina, Model BO lots
+- Infrastructure: Brodiaea sewer, Avenue 44 undergrounding, Alessandro median, Channel, Marbella Rule 20, Sierra Vista utilities
+- Approved / remaining phases: Deerlake Poema clubhouse with remaining pads; Dahlia Phases 3–5
+- Project management: Sierra Vista, Bella Sera, Windsong Alessandro, canyon bridge sequence
+
+No labeled apartment photos yet. No city-named inland photos yet.
+
 ## Next page to create
 
 After the homepage and project-management page are retargeted: **residential subdivision development Riverside County**.
