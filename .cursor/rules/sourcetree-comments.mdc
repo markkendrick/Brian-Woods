@@ -10,5 +10,7 @@ When files change and the user needs to save work, provide:
 1. Files to stage
 2. A short commit message they can paste into Sourcetree
 3. Push reminder: check **main** only, leave **All tags** unchecked
+4. A one-paragraph **monthly report** entry with the current date and time (Pacific). Append it to `docs/customer-log.md` (newest first, under a `## Month D, YYYY, H:MM AM/PM PT` heading). Brand it as Mark’s report for Brian Woods / Land Development Specialists LLC. Start on-site work with `On-site.` and, when there are results to report, add `Off-site.` as a short results-only sentence. Never describe off-site methods, tools, sources, or techniques. Write it for Brian in plain language. Spell out every review address as a full URL in the sentence (for example `https://mistyrose-manatee-208344.hostingersite.com/services/land-development-feasibility-study/`). Do not hide the address behind a markdown label. Keep trailing slashes. Do not send him to `https://www.landdevspec.net/` for new Next.js pages until that domain is switched. If GitHub is useful, write `https://github.com/markkendrick/Brian-Woods`.
+5. Rebuild the current Pacific-month PDF with `python3 scripts/customer-log-pdf.py`. The file is `docs/customer-log/YYYY-MM.pdf`. Keep logging all month. On the last calendar day of the month, or the first chat in a new month, rebuild the completed month (`python3 scripts/customer-log-pdf.py --month YYYY-MM`) and tell Mark the PDF path so he can send it to Brian.
 
 Do not create a git commit unless they explicitly ask to commit.
