@@ -8,6 +8,9 @@ Do not put the Southern California research report here. That file is an SEO tar
 | --- | --- |
 | `land-development-basics.md` | Brian’s Q&A. Primary source for URL and SEO copy |
 | `acquisition-feasibility.md` | Purchase review, due diligence, residual value, and feasibility |
+| `due-diligence-process.md` | Q81–108. Records, utilities, soils, zoning, and the issue log |
+| `entitlements-permits.md` | Q109–140. Entitlements, conditions, permits, and agency work |
+| `site-planning-construction.md` | Q141–200. Site planning, constructability, and horizontal construction |
 | `facts.md` | Numbers and ranges to keep consistent across pages |
 | `photos.md` | Photos Brian has supplied, where they are used, and which later pages they fit |
 | `projects.md` | Project names and facts taken from Brian’s photo filenames |

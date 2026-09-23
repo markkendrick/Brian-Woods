@@ -229,6 +229,36 @@ export default function FeasibilityPage() {
       <section className="bg-cream-deep">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <h2 className="font-display text-3xl font-semibold">
+            How due diligence is organized
+          </h2>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            Due diligence investigates a property’s rights, physical condition,
+            approval requirements, and development costs before a major
+            commitment. We start with the owner’s goals and the property
+            records, then inspect the site, contact agencies and utility
+            providers, and coordinate the studies that are needed.
+          </p>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            The first records include ownership and parcel information, the
+            preliminary title report, recorded documents, maps, available
+            surveys, zoning, and existing approvals. A nearby utility line or a
+            line on a map does not confirm that the project can connect or that
+            enough capacity is available. The provider has to verify that.
+          </p>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            Findings go into an issue log with the evidence, likely impact,
+            recommended action, responsible person, and deadline. Issues that
+            could stop the project, cause major delays, or add substantial costs
+            come first. A preliminary review uses available information. A
+            completed technical investigation includes defined fieldwork and
+            professional findings within an agreed scope.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-paper">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+          <h2 className="font-display text-3xl font-semibold">
             What we need to start
           </h2>
           <p className="mt-4 max-w-3xl text-navy/80">
@@ -243,7 +273,7 @@ export default function FeasibilityPage() {
         </div>
       </section>
 
-      <section className="bg-paper">
+      <section className="bg-cream-deep">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <h2 className="font-display text-3xl font-semibold">
             Letter of intent, due diligence, and what you receive

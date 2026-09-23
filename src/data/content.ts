@@ -90,7 +90,7 @@ export const services = [
     title: "Plan Approval & Permitting",
     href: "/contact-us/",
     summary:
-      "Coordinate consultants and agencies through CEQA, mapping, entitlements, plan approvals, and permitting while keeping the approval schedule organized.",
+      "Coordinate consultants and agencies through CEQA, mapping, entitlements, plan approvals, and permitting. An entitlement approves the land use; a construction permit authorizes specific work under approved plans.",
   },
   {
     title: "Construction Management",
@@ -223,6 +223,11 @@ export const homeFaqs = [
     answer:
       "Start with the address, parcel number, acreage, ownership or purchase status, intended use, target schedule, and available budget. Surveys, title documents, plans, utility information, and previous studies help if they exist.",
   },
+  {
+    question: "Does a nearby utility line mean a project can connect?",
+    answer:
+      "No. A nearby line or a line on a map does not confirm that the project can connect or that enough capacity is available. The provider has to verify service requirements, connection points, and any upgrades.",
+  },
 ];
 
 export const managementFaqs = [
@@ -255,6 +260,26 @@ export const managementFaqs = [
     question: "What should we provide before project management begins?",
     answer:
       "Share available plans, budgets, schedules, approval status, consultant information, and known project issues.",
+  },
+  {
+    question: "What does permit readiness mean before construction begins?",
+    answer:
+      "It means the required approvals for that phase are issued and the conditions for starting the work are satisfied, including applicable fees, bonds, inspections, and approved drawing revisions. Submitting an application does not authorize construction.",
+  },
+  {
+    question: "What is constructability review?",
+    answer:
+      "It checks whether the design can be built efficiently with the available space, access, materials, equipment, and sequence of work. It can catch utility conflicts, missing elevations, and details contractors would otherwise have to guess.",
+  },
+  {
+    question: "What work is included in horizontal land development?",
+    answer:
+      "Clearing, demolition, grading, building pads, retaining walls, utilities, drainage, roads, sidewalks, and related site improvements. Larger projects can also include bridges, lift stations, pump stations, dry utilities, and overhead relocation or undergrounding.",
+  },
+  {
+    question: "What should a builder verify before treating a lot as ready?",
+    answer:
+      "Approved plans, pad elevations, geotechnical acceptance, access, drainage, required utility availability, and inspection status, plus construction-stage stormwater protections. The builder should know what has been accepted and what still restricts foundations.",
   },
 ];
 
@@ -293,6 +318,21 @@ export const subdivisionFaqs = [
     question: "What is the difference between horizontal development and vertical construction?",
     answer:
       "Horizontal development prepares the land and infrastructure: grading, roads, drainage, underground utilities, street improvements, and utility connections. Vertical construction is foundations and the buildings. The schedule should show which site improvements must be ready before building starts, and the budget should define where each category starts and ends so work is neither missed nor counted twice.",
+  },
+  {
+    question: "Can a subdivision need more than one access point?",
+    answer:
+      "Yes. Subdivisions may require two separate access routes, depending on the project and the reviewing agencies. Emergency vehicle access can also affect entrances, street layout, gates, and construction phases. Those requirements should be confirmed early with the agencies and the fire authority.",
+  },
+  {
+    question: "What does site planning involve in a residential development?",
+    answer:
+      "It arranges buildings, roads, parking, utilities, drainage, and open space within the property’s limits. On sloping land, grading, retaining walls, and usable pad areas become especially important.",
+  },
+  {
+    question: "What should a builder verify before treating a lot as ready?",
+    answer:
+      "Approved plans, pad elevations, geotechnical acceptance, access, drainage, required utility availability, and inspection status, plus construction-stage stormwater protections such as silt fencing, slope protection, mulch, and inlet protection.",
   },
 ];
 
@@ -346,5 +386,25 @@ export const feasibilityFaqs = [
     question: "What separates a promising development opportunity from one that only looks attractive on paper?",
     answer:
       "A promising opportunity has a practical approval path, workable infrastructure, realistic costs, and homes or apartments the market can support. Major assumptions have been tested. If the project depends on rising future prices or rents to become profitable, that needs to be clearly understood.",
+  },
+  {
+    question: "What is land development due diligence?",
+    answer:
+      "It is the investigation of a property’s rights, physical condition, approval requirements, and development costs before a major commitment. The findings help an owner see what is known, what still needs investigation, and what the land is worth based on its development potential and the cost of making it usable.",
+  },
+  {
+    question: "What are the main steps in a due diligence review?",
+    answer:
+      "Start with the owner’s goals and the property records, inspect the site, contact agencies and utility providers, and coordinate needed studies. The findings are combined into a development concept, cost range, schedule, and decision report, with clear follow-up for unresolved issues.",
+  },
+  {
+    question: "What is the difference between a preliminary feasibility review and a completed technical investigation?",
+    answer:
+      "A preliminary review uses available information to identify likely opportunities and constraints. A technical investigation includes defined fieldwork, analysis, and professional findings within an agreed scope. A soils investigation is more useful once there is a preliminary grading and development concept.",
+  },
+  {
+    question: "What due diligence issues do buyers overlook most often?",
+    answer:
+      "The difference between utilities being nearby and utilities being available with enough capacity, plus the rights needed to reach those connections. Clear legal access and workable physical access are also critical, including whether a subdivision needs two separate access routes.",
   },
 ];

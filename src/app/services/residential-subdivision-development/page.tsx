@@ -206,6 +206,25 @@ export default function SubdivisionPage() {
             decisions affect the schedule. Potholing existing utilities before
             connecting can prevent unexpected redesign during construction.
           </p>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            Subdivisions may require two separate access routes. Emergency
+            vehicle access can change entrances, street layout, gates, and
+            construction phases. Those requirements should be confirmed early
+            with the reviewing agencies and the fire authority.
+          </p>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            Site planning arranges buildings, roads, parking, utilities,
+            drainage, and open space inside the property’s limits. A constraints
+            map shows environmental areas, easements, setbacks, slopes, and
+            drainage features so the remaining land can be tested for streets,
+            lots, and buildings.
+          </p>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            Before a builder treats a lot as ready, the team should verify
+            approved plans, pad elevations, geotechnical acceptance, access,
+            drainage, required utility availability, inspection status, and
+            construction-stage stormwater protections.
+          </p>
         </div>
       </section>
 

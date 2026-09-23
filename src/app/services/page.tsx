@@ -34,9 +34,10 @@ export default function ServicesPage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <h1 className="font-display text-4xl font-semibold sm:text-5xl">{page.h1}</h1>
           <p className="mt-5 max-w-3xl text-lg text-navy/80">
-            Dedicated service pages cover feasibility, residential subdivision
-            development, and land development project management. The topics
-            below are the service areas described across the site.
+            Dedicated service pages cover feasibility and due diligence,
+            residential subdivision development, and land development project
+            management. The topics below are the service areas described across
+            the site.
           </p>
         </div>
       </section>

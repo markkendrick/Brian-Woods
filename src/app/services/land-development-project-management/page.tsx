@@ -186,6 +186,43 @@ export default function ProjectManagementPage() {
         </ol>
       </section>
 
+      <section className="bg-paper">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+          <h2 className="font-display text-3xl font-semibold">
+            Permit readiness and horizontal construction
+          </h2>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            Permit readiness means the approvals for a specific phase are issued
+            and the conditions for starting that work are satisfied, including
+            applicable fees, bonds, inspections, and approved drawing revisions.
+            Submitting an application does not authorize construction.
+          </p>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            Horizontal work includes clearing, demolition, grading, pads,
+            retaining walls, utilities, drainage, roads, and sidewalks. Work
+            generally begins with clearing and rough grading. Deep drainage
+            facilities and buried basins may go in before other utilities.
+            Sewer, remaining storm drain work, water, dry utilities, and streets
+            follow in a coordinated sequence.
+          </p>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            A constructability review checks whether the design can be built
+            with the available space, access, materials, equipment, and
+            sequence. Plans should show manhole elevations, pipe invert
+            elevations, and inlet and outlet elevations so contractors are not
+            left guessing.
+          </p>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            One example is a South Corona master-planned community. The first
+            phase included 540 lots and was completed in about nine months.
+            Rough grading took about two to two and a half months, with
+            production sometimes reaching about 100,000 cubic yards a day. The
+            work depended on overlapping crews in separate areas while keeping
+            access and quality coordinated.
+          </p>
+        </div>
+      </section>
+
       <section className="bg-cream-deep">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <h2 className="font-display text-3xl font-semibold">

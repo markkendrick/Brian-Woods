@@ -56,6 +56,15 @@ Brian’s labeled job photos are in `docs/knowledge/photos.md`. Use them on thes
 
 No labeled apartment photos yet. No city-named inland photos yet.
 
+## Knowledge mapped to existing URLs (Q81–200)
+
+- Due diligence, records, utilities nearby vs available, preliminary vs technical: `/services/land-development-feasibility-study/`
+- Two access routes, site planning, lot readiness: `/services/residential-subdivision-development/`
+- Permit readiness, constructability, horizontal sequence, South Corona 540-lot example: `/services/land-development-project-management/`
+- Nearby utility line FAQ: `/`
+
+Do not create thin Palmdale, Fontana, Chatsworth, or South Corona city pages from those project examples.
+
 ## Next page to create
 
-**Residential land entitlement services, Riverside County.** Proposed path: `/services/residential-land-entitlements/`.
+**Residential land entitlement services, Riverside County.** Proposed path: `/services/residential-land-entitlements/`. Primary unused material from this batch: Q109–120 (what an entitlement is, entitlement vs construction permit, strategy, conditions of approval, CEQA schedule).
