@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
-"""Build a branded monthly report PDF from docs/customer-log.md."""
+"""Build a branded monthly report PDF from docs/customer-log.md.
+
+    npm run report:month
+    npm run report:month -- 2026-09
+
+Python 3.9+ standard library only. The PDF is the client copy: internal notes
+stay out, recommendations stay apart from completed work, and Search Console
+submissions are labeled "Indexing requested". The new site is a preview.
+"""
 
 from __future__ import annotations
 
@@ -157,17 +165,154 @@ def parse_month(value: str | None) -> tuple[int, int]:
     now = dt.datetime.now(PACIFIC)
     if not value:
         return now.year, now.month
-    match = re.fullmatch(r"(\d{4})-(\d{2})", value)
+    match = re.fullmatch(r"(\d{4})-(\d{2})", value.strip())
     if not match:
-        raise SystemExit("Use --month YYYY-MM")
-    return int(match.group(1)), int(match.group(2))
+        raise SystemExit("Use YYYY-MM, for example 2026-09.")
+    year, month = int(match.group(1)), int(match.group(2))
+    if month < 1 or month > 12:
+        raise SystemExit("Use YYYY-MM, for example 2026-09.")
+    return year, month
 
 
 URL_RE = re.compile(r"(https://[^\s]+)")
 SECTION_RE = re.compile(
-    r"\*\*(On-site|Off-site)\.\*\*|(?:(?<=^)|(?<=\s))(On-site|Off-site)\.",
+    r"\*\*(On-site|Off-site|Recommendations?)\.\*\*|"
+    r"(?:(?<=^)|(?<=\s))(On-site|Off-site|Recommendations?)\.",
     re.IGNORECASE,
 )
+ANY_URL_RE = re.compile(r"https?://[^\s)]+", re.IGNORECASE)
+INTERNAL_MARK_RE = re.compile(
+    r"(?i)("
+    r"sourcetree|source\s*tree|"
+    r"\ball tags\b|"
+    r"localhost|127\.0\.0\.1|"
+    r"\bchatgpt\b|\bclaude\b|\bcopilot\b|\bgrok\b|\bopenai\b|\banthropic\b|"
+    r"\bcursor\b|"
+    r"\bai (?:tool|tooling|agent|assistant)s?\b|"
+    r"\b(?:git )?branch\s+[A-Za-z0-9._/-]+|"
+    r"\bcommit\s+[0-9a-f]{7,40}\b|"
+    r"\b[0-9a-f]{40}\b"
+    r")"
+)
+PREVIEW_LIVE_RE = re.compile(
+    r"(?i)\b(the new (?:web)?site|the staging site|this rebuild) is (?:now )?live\b"
+)
+
+
+def normalize_label(label: str) -> str:
+    titled = label.title().replace("Off-Site", "Off-site")
+    if titled.lower().startswith("recommend"):
+        return "Recommendations"
+    return titled
+
+
+def sentence_spans(text: str) -> list[tuple[int, int]]:
+    """Split on sentence endings without breaking periods inside URLs."""
+    masked = list(text)
+    for match in ANY_URL_RE.finditer(text):
+        end = match.end()
+        while end > match.start() and text[end - 1] in ".,!?;:":
+            end -= 1
+        for index in range(match.start(), end):
+            if masked[index] in ".!?":
+                masked[index] = " "
+    masked_text = "".join(masked)
+    spans: list[tuple[int, int]] = []
+    start = 0
+    for match in re.finditer(r"[.!?]\s*|\n+", masked_text):
+        end = match.end()
+        if end > start:
+            spans.append((start, end))
+        start = end
+    if start < len(text):
+        spans.append((start, len(text)))
+    return spans or ([(0, len(text))] if text else [])
+
+
+def label_indexing(text: str) -> str:
+    """Search Console submissions are requested, not confirmed indexed."""
+    if not re.search(r"search console", text, re.IGNORECASE):
+        return text
+    pieces: list[str] = []
+    last = 0
+    changed = False
+    for start, end in sentence_spans(text):
+        pieces.append(text[last:start])
+        sentence = text[start:end]
+        updated = sentence
+        if re.search(r"search console", sentence, re.IGNORECASE):
+            updated = re.sub(r"(?i)\bsubmitted for indexing\b", "Indexing requested", updated)
+            updated = re.sub(r"(?i)(?<!not )\bindexed\b", "Indexing requested", updated)
+            updated = re.sub(r"(?i)indexing requested", "Indexing requested", updated)
+            updated = re.sub(r"(?:Indexing requested\s*){2,}", "Indexing requested ", updated)
+            changed = changed or updated != sentence
+        pieces.append(updated)
+        last = end
+    pieces.append(text[last:])
+    if not changed:
+        return text
+    return "".join(pieces)
+
+
+INTERNAL_CLAUSE_RES = (
+    re.compile(r"https?://(?:localhost|127\.0\.0\.1)(?::\d+)?[^\s)]*", re.IGNORECASE),
+    re.compile(r"(?i)\bSourcetree\b[^.!\n]*[.!?]?"),
+    re.compile(r"(?i)\bsource\s*tree\b[^.!\n]*[.!?]?"),
+    re.compile(r"(?i)\bAll tags\b[^.!\n]*[.!?]?"),
+    re.compile(r"(?i)\b(?:chatgpt|claude|copilot|grok|openai|anthropic)\b[^.!\n]*[.!?]?"),
+    re.compile(r"(?i)\bcursor\b[^.!\n]*[.!?]?"),
+    re.compile(r"(?i)\bai (?:tool|tooling|agent|assistant)s?\b[^.!\n]*[.!?]?"),
+    re.compile(r"(?i)\b(?:git )?branch\s+[A-Za-z0-9][A-Za-z0-9._/-]*"),
+    re.compile(r"(?i)\bcommit\s+[0-9a-f]{7,40}\b"),
+    re.compile(r"\b[0-9a-f]{40}\b"),
+    re.compile(r"(?i)\blocalhost\b[^.!\n]*[.!?]?"),
+    re.compile(r"(?i)\b127\.0\.0\.1\b[^.!\n]*[.!?]?"),
+)
+LABEL_ONLY_RE = re.compile(
+    r"^(?:\*\*)?(?:On-site|Off-site|Recommendations?)\.(?:\*\*)?$",
+    re.IGNORECASE,
+)
+
+
+def clean_sentence(sentence: str) -> str:
+    stripped = sentence.strip()
+    if not stripped or LABEL_ONLY_RE.match(stripped):
+        return sentence
+    updated = PREVIEW_LIVE_RE.sub(r"\1 is still a preview", sentence)
+    updated = label_indexing(updated)
+    had_internal = INTERNAL_MARK_RE.search(sentence) is not None
+    if had_internal:
+        for pattern in INTERNAL_CLAUSE_RES:
+            updated = pattern.sub("", updated)
+        words = re.findall(r"[A-Za-z']{2,}", updated)
+        if "https://" not in updated and len(words) < 4:
+            return ""
+    return updated
+
+
+def client_body(body: str) -> str:
+    """Client copy of one log entry. Unchanged when the entry is already client-facing."""
+    needs_edit = (
+        INTERNAL_MARK_RE.search(body) is not None
+        or PREVIEW_LIVE_RE.search(body) is not None
+        or re.search(r"search console", body, re.IGNORECASE) is not None
+    )
+    if not needs_edit:
+        return body.strip()
+    pieces: list[str] = []
+    for start, end in sentence_spans(body):
+        cleaned = clean_sentence(body[start:end])
+        if cleaned.strip():
+            pieces.append(cleaned)
+    text = re.sub(r"[ \t]{2,}", " ", "".join(pieces))
+
+    def stray_punctuation(match: re.Match[str]) -> str:
+        before = match.string[max(0, match.start() - 120) : match.start()]
+        if re.search(r"https?://\S+$", before):
+            return ""
+        return match.group(1)
+
+    return re.sub(r"\s+([.!?])", stray_punctuation, text).strip()
 
 
 def body_chunks(body: str) -> list[tuple[str, bool]]:
@@ -202,8 +347,8 @@ def split_sections(body: str) -> list[tuple[str, str]]:
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
         chunk = text[start:end].strip()
         if chunk:
-            sections.append((label.title().replace("Off-Site", "Off-site"), chunk))
-    return sections or [("On-site", text)]
+            sections.append((normalize_label(label), chunk))
+    return sections
 
 
 def month_entries(year: int, month: int) -> list[tuple[str, str]]:
@@ -249,13 +394,22 @@ def build_pages(year: int, month: int, entries: list[tuple[str, str]]) -> list[l
     )
     lines.append({"kind": "rule", "color": GOLD, "height": 14.0})
 
+    recommendations: list[tuple[str, str]] = []
     if not entries:
         add_text(lines, "No dated entries for this month yet.", 11.0, False, NAVY, 16.0)
     else:
+        wrote_completed = False
         for heading, body in entries:
+            prepared = client_body(body)
+            sections = split_sections(prepared) if prepared else []
+            done = [(label, chunk) for label, chunk in sections if label != "Recommendations"]
+            recommendations.extend((heading, chunk) for label, chunk in sections if label == "Recommendations")
+            if not done:
+                continue
+            wrote_completed = True
             lines.append({"kind": "spacer", "height": 10.0})
             add_text(lines, heading, 12.0, True, NAVY, 16.0)
-            for label, chunk in split_sections(body):
+            for label, chunk in done:
                 add_text(lines, label.upper(), 8.5, True, GOLD, 14.0)
                 for part, is_url in body_chunks(chunk):
                     size = 9.5 if is_url else 10.5
@@ -263,6 +417,27 @@ def build_pages(year: int, month: int, entries: list[tuple[str, str]]) -> list[l
                     color = MUTED if is_url else NAVY
                     add_text(lines, part, size, False, color, lead)
             lines.append({"kind": "spacer", "height": 4.0})
+        if not wrote_completed and not recommendations:
+            add_text(lines, "No dated entries for this month yet.", 11.0, False, NAVY, 16.0)
+        if recommendations:
+            lines.append({"kind": "spacer", "height": 10.0})
+            add_text(lines, "RECOMMENDATIONS", 8.5, True, GOLD, 16.0)
+            add_text(
+                lines,
+                "Suggestions below are not completed work.",
+                10.5,
+                False,
+                NAVY,
+                15.0,
+            )
+            for heading, chunk in recommendations:
+                lines.append({"kind": "spacer", "height": 8.0})
+                add_text(lines, heading, 12.0, True, NAVY, 16.0)
+                for part, is_url in body_chunks(chunk):
+                    size = 9.5 if is_url else 10.5
+                    lead = 13.5 if is_url else 14.5
+                    color = MUTED if is_url else NAVY
+                    add_text(lines, part, size, False, color, lead)
 
     usable_h = PAGE_H - HEADER_H - FOOTER_H - 20
     pages: list[list[dict]] = []
@@ -397,10 +572,23 @@ def write_pdf(path: Path, pages: list[list[dict]], year: int, month: int) -> Non
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Write a branded monthly report PDF.")
-    parser.add_argument("--month", help="YYYY-MM (defaults to the current Pacific month)")
+    parser = argparse.ArgumentParser(
+        description="Write the monthly client report PDF for Land Development Specialists LLC."
+    )
+    parser.add_argument(
+        "month",
+        nargs="?",
+        help="YYYY-MM (defaults to the current Pacific month). Example: 2026-09",
+    )
+    parser.add_argument(
+        "--month",
+        dest="month_flag",
+        help="YYYY-MM. Same as the positional month.",
+    )
     args = parser.parse_args()
-    year, month = parse_month(args.month)
+    if args.month and args.month_flag and args.month != args.month_flag:
+        raise SystemExit("Pass the month once, as YYYY-MM.")
+    year, month = parse_month(args.month or args.month_flag)
     entries = month_entries(year, month)
     pages = build_pages(year, month, entries)
     stamp = f"{year}-{month:02d}"

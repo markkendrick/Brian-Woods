@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "report:month": "python3 scripts/customer-log-pdf.py"
   },
   "dependencies": {
     "next": "16.3.5",
