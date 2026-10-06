@@ -4,6 +4,14 @@ Use these on matching pages. One strong page per SEO group. Do not create a page
 
 Do not invent project names, cities, or that Brian owns the equipment. Project names below come from Brian’s filenames.
 
+## Captions
+
+Text under images must be short and sweet: one plain sentence of about 12 words or fewer, sounding like a person and not AI, with no disclaimers in visible captions.
+
+Do not use phrases such as “community photography” or “not a listing.” Do not stuff keywords. Do not use em dashes. Do not use AI-sounding phrasing. Keep the facts accurate and add none. Alt text stays descriptive but natural.
+
+The tables below are internal notes for choosing a photo. They are not captions. When a photo is placed on a page, the visible line under it follows the caption rule above.
+
 Originals stay in `~/Desktop/LDSLLC Photos`. Web copies (longest side 1600px) are in `/images/library/`. The file-to-file map is `photo-library-map.json`.
 
 ## On the homepage now

@@ -6,6 +6,10 @@ This monthly report documents on-site changes and summarizes off-site SEO work a
 
 Write every review address as a full URL. Use the Hostinger staging site until https://www.landdevspec.net/ points at this rebuild. After each save, rebuild the current Pacific-month PDF with `python3 scripts/customer-log-pdf.py`. Finished month files live in `docs/customer-log/` as `YYYY-MM.pdf`.
 
+## October 6, 2026, 12:24 AM PT
+
+On-site. Any text under a photo will stay to one short, plain sentence. The pages did not change, because none of the photos currently have a caption underneath. Staging homepage: https://mistyrose-manatee-208344.hostingersite.com/
+
 ## September 23, 2026, 3:36 PM PT
 
 On-site. Brian’s questions 81 through 200 are now in the knowledge base and on the matching pages. The feasibility study page now explains how due diligence is organized, including records, nearby utilities versus available capacity, and the difference between a preliminary review and a completed technical investigation. The subdivision page now covers two access routes, site planning, and what a builder should verify before treating a lot as ready. The project management page now covers permit readiness, constructability, the horizontal construction sequence, and a South Corona first phase of 540 lots completed in about nine months. Feasibility study: https://mistyrose-manatee-208344.hostingersite.com/services/land-development-feasibility-study/ Subdivision development: https://mistyrose-manatee-208344.hostingersite.com/services/residential-subdivision-development/ Project management: https://mistyrose-manatee-208344.hostingersite.com/services/land-development-project-management/ Staging homepage: https://mistyrose-manatee-208344.hostingersite.com/ Services: https://mistyrose-manatee-208344.hostingersite.com/services/
