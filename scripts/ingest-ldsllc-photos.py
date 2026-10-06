@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Resize LDSLLC stills into public/images/library and write a source map."""
+"""Resize LDSLLC stills into public/images/library and write a source map.
+
+This script does not write captions. Text under images must be short and
+sweet: one plain sentence of about 12 words or fewer, sounding like a person
+and not AI, with no disclaimers in visible captions. Do not append a
+disclaimer, credit line, or extra clause in code.
+"""
 
 from __future__ import annotations
 

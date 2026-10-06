@@ -7,3 +7,11 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+# Image captions
+
+Text under images must be short and sweet: one plain sentence of about 12 words or fewer, sounding like a person and not AI, with no disclaimers in visible captions.
+
+Do not use phrases such as “community photography” or “not a listing.” Do not stuff keywords. Do not use em dashes. Do not use AI-sounding phrasing. Keep the facts accurate and add none. Alt text stays descriptive but natural.
+
+If code builds a caption, write the short sentence at the source. Do not append a disclaimer, credit line, or extra clause afterward.

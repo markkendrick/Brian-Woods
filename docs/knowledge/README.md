@@ -21,3 +21,4 @@ Do not put the Southern California research report here. That file is an SEO tar
 1. Use Brian’s notes in this folder first.
 2. Clean the wording.
 3. If Brian has not provided a fact, leave it out.
+4. Text under a photo is one short, plain sentence. See the caption rule in `photos.md`.
