@@ -29,7 +29,7 @@ export function Header() {
             alt={site.logoAlt}
             width={site.logoWidth}
             height={site.logoHeight}
-            className="h-14 w-auto max-w-[min(17rem,calc(100vw-7.5rem))] object-contain sm:h-20 sm:max-w-[28rem]"
+            className="h-16 w-auto max-w-[min(20rem,calc(100vw-6rem))] object-contain sm:h-20 sm:max-w-[28rem]"
             priority
           />
         </Link>

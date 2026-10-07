@@ -6,6 +6,10 @@ This monthly report documents on-site changes and summarizes off-site SEO work a
 
 Write every review address as a full URL. Use the Hostinger staging site until https://www.landdevspec.net/ points at this rebuild. After each save, rebuild the current Pacific-month PDF with `python3 scripts/customer-log-pdf.py`. Finished month files live in `docs/customer-log/` as `YYYY-MM.pdf`.
 
+## October 7, 2026, 4:33 PM PT
+
+On-site. The header and footer now use a corrected logo that reads Land Development Specialists LLC. On a phone, the header logo is a little larger. Staging homepage: https://mistyrose-manatee-208344.hostingersite.com/
+
 ## October 7, 2026, 8:33 AM PT
 
 On-site. The contact email now shows in lowercase as brian@landdevspec.net, including the contact page and the footer. The company name, Brian Woods as Principal, the Huntington Beach post office box, and the phone number match the confirmed details. Contact: https://mistyrose-manatee-208344.hostingersite.com/contact-us/
