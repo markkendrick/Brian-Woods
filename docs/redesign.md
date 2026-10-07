@@ -35,7 +35,7 @@ Preferred hostname: `https://www.landdevspec.net` with trailing slashes.
 
 - Google verification: `qt6BZBTht6J8LrOp4nDTJLAqQq7r6KwOOE3vhxvk-JQ`
 - Analytics: `G-ELK6NKXXZY`
-- Contact: `(760) 271-1081`, `brian@landDevSpec.net`, `P.O. Box 5833, Huntington Beach, CA 92615`
+- Contact: `(760) 271-1081`, `brian@landdevspec.net`, `P.O. Box 5833, Huntington Beach, CA 92615`
 - Founder: Brian Woods
 - Existing LocalBusiness schema used city-center coordinates and opening hours. The redesign uses ProfessionalService + PO Box instead of representing the mailing address as a staffed office.
 

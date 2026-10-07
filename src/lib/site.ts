@@ -21,10 +21,13 @@ export const site = {
   shortName: "Land Development Specialists",
   legalName: "Land Development Specialists LLC",
   founder: "Brian Woods",
+  jobTitle: "Principal",
   description:
     "Residential land development services for landowners in Southern California. Consulting, subdivision development, and project management for communities of 50 to 200 lots.",
   url: resolveSiteUrl(),
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "brian@landDevSpec.net",
+  email: (
+    process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "brian@landdevspec.net"
+  ).toLowerCase(),
   phone: process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "(760) 271-1081",
   poBox: "P.O. Box 5833, Huntington Beach, CA 92615",
   locality: "Huntington Beach",
@@ -35,11 +38,11 @@ export const site = {
   logoPath: "/images/brand/logo.jpg",
   logoWidth: 1024,
   logoHeight: 341,
-  logoAlt: "Land Developpment Specialist LLC",
+  logoAlt: "Land Development Specialists LLC",
   footerLogoPath: "/images/brand/logo-stacked.jpg",
   footerLogoWidth: 1024,
   footerLogoHeight: 341,
-  verification: "qt6BZBTht6J8LrOp4nDTJLAqQq7r6KwOOE3vhxvk-JQ",
+  verification: "6dhZSbUz54TuzSBemcu7bgiusI6IcNMxMkUPnD01yek",
   analyticsId: "G-ELK6NKXXZY",
 };
 
