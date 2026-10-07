@@ -4,7 +4,7 @@ Prepared for Brian Woods / Land Development Specialists LLC. Prepared by Mark Ke
 
 This monthly report documents on-site changes and summarizes off-site SEO work and results. The specific off-site methods remain confidential to protect proprietary techniques.
 
-Write every review address as a full URL. Use the Hostinger staging site until https://www.landdevspec.net/ points at this rebuild. After each save, rebuild the current Pacific-month PDF with `python3 scripts/customer-log-pdf.py`. Finished month files live in `docs/customer-log/` as `YYYY-MM.pdf`.
+Write every review address as a full URL. Use the Hostinger staging site until https://www.landdevspec.net/ points at this rebuild. After each save, rebuild the current Pacific-month PDF with `npm run report:month`. Finished month files live in `docs/customer-log/` as `YYYY-MM.pdf`. For a finished month, run `npm run report:month -- YYYY-MM`.
 
 ## October 6, 2026, 7:01 PM PT
 
