@@ -42,7 +42,7 @@ export const site = {
   footerLogoPath: "/images/brand/logo-stacked.jpg",
   footerLogoWidth: 1024,
   footerLogoHeight: 341,
-  verification: "qt6BZBTht6J8LrOp4nDTJLAqQq7r6KwOOE3vhxvk-JQ",
+  verification: "6dhZSbUz54TuzSBemcu7bgiusI6IcNMxMkUPnD01yek",
   analyticsId: "G-ELK6NKXXZY",
 };
 
