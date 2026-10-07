@@ -6,6 +6,10 @@ This monthly report documents on-site changes and summarizes off-site SEO work a
 
 Write every review address as a full URL. Use the Hostinger staging site until https://www.landdevspec.net/ points at this rebuild. After each save, rebuild the current Pacific-month PDF with `python3 scripts/customer-log-pdf.py`. Finished month files live in `docs/customer-log/` as `YYYY-MM.pdf`.
 
+## October 6, 2026, 3:26 PM PT
+
+On-site. The hosting build was fixed, so the latest version can publish on the staging site again. The pages did not change. Staging homepage: https://mistyrose-manatee-208344.hostingersite.com/
+
 ## October 6, 2026, 12:24 AM PT
 
 On-site. Any text under a photo will stay to one short, plain sentence. The pages did not change, because none of the photos currently have a caption underneath. Staging homepage: https://mistyrose-manatee-208344.hostingersite.com/
