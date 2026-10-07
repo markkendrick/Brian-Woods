@@ -11,6 +11,7 @@ export function organizationSchema() {
     founder: {
       "@type": "Person",
       name: site.founder,
+      jobTitle: site.jobTitle,
     },
     address: {
       "@type": "PostalAddress",

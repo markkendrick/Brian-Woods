@@ -58,7 +58,7 @@ export async function sendContactEmail(
     };
   }
 
-  const toAddress = process.env.CONTACT_TO_EMAIL?.trim() || site.email;
+  const toAddress = (process.env.CONTACT_TO_EMAIL?.trim() || site.email).toLowerCase();
   const fromAddress =
     process.env.CONTACT_FROM_EMAIL?.trim() ||
     "Land Development Specialists <onboarding@resend.dev>";
