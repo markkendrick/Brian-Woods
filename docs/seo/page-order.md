@@ -16,7 +16,7 @@ Preferred scale on service pages, from Brian: subdivisions of **50 to 200 lots**
 | --- | --- | --- |
 | 1. Southern California consultant | `/` | Homepage. Retarget title and description away from Huntington Beach / Los Angeles. |
 | 2. Project management | `/services/land-development-project-management/` | Keep this URL. Retarget to Riverside County. |
-| Services hub | `/services/` | Keep. Point to consultant, subdivision, and project-management pages. |
+| Services hub | `/services/` | Keep. Point to consultant, subdivision, feasibility, entitlements, and project-management pages. |
 
 ## New pages (create in this order)
 
@@ -24,7 +24,7 @@ Preferred scale on service pages, from Brian: subdivisions of **50 to 200 lots**
 | --- | --- | --- | --- |
 | 3 | residential subdivision development Riverside County | `/services/residential-subdivision-development/` | Created. Supporting: residential subdivision developer; subdivision development company; develop my land into a housing community |
 | 4 | land development feasibility study Riverside County | `/services/land-development-feasibility-study/` | Created. Supporting: residential subdivision feasibility study; due diligence; lot yield analysis |
-| 5 | residential land entitlement services Riverside County | `/services/residential-land-entitlements/` | residential entitlement consultant; tentative tract map consultant |
+| 5 | residential land entitlement services Riverside County | `/services/residential-land-entitlements/` | Created. Supporting: residential entitlement consultant; tentative tract map consultant |
 | 6 | multifamily development consultant Southern California | `/services/multifamily-development/` | apartment development company; garden style / two-story apartment development |
 
 Then inland market pages, only with distinct local material:
@@ -61,10 +61,11 @@ No labeled apartment photos yet. No city-named inland photos yet.
 - Due diligence, records, utilities nearby vs available, preliminary vs technical: `/services/land-development-feasibility-study/`
 - Two access routes, site planning, lot readiness: `/services/residential-subdivision-development/`
 - Permit readiness, constructability, horizontal sequence, South Corona 540-lot example: `/services/land-development-project-management/`
+- Entitlements, strategy, conditions of approval, CEQA schedule (Q109–120): `/services/residential-land-entitlements/`
 - Nearby utility line FAQ: `/`
 
 Do not create thin Palmdale, Fontana, Chatsworth, or South Corona city pages from those project examples.
 
 ## Next page to create
 
-**Residential land entitlement services, Riverside County.** Proposed path: `/services/residential-land-entitlements/`. Primary unused material from this batch: Q109–120 (what an entitlement is, entitlement vs construction permit, strategy, conditions of approval, CEQA schedule).
+**Multifamily development consultant, Southern California.** Proposed path: `/services/multifamily-development/`. Supporting phrases: apartment development company; garden style / two-story apartment development. No labeled apartment photos yet. Use only Brian’s apartment notes. Do not invent a city page.

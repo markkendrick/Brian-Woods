@@ -112,8 +112,15 @@ export default function SubdivisionPage() {
                 Planning and entitlements
               </h3>
               <p className="mt-3 text-navy/80">
-                Study what can be built, process entitlements, and work with
-                agencies on conditions that affect cost and responsibility.
+                Study what can be built, process{" "}
+                <Link
+                  href="/services/residential-land-entitlements/"
+                  className="font-semibold underline underline-offset-4"
+                >
+                  entitlements
+                </Link>
+                , and work with agencies on conditions that affect cost and
+                responsibility.
               </p>
             </li>
             <li className="rounded-sm border border-navy/10 bg-cream p-6">

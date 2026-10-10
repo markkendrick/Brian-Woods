@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { CtaBand } from "@/components/CtaBand";
 import { FaqList } from "@/components/FaqList";
 import { JsonLd } from "@/components/JsonLd";
@@ -192,10 +193,18 @@ export default function ProjectManagementPage() {
             Permit readiness and horizontal construction
           </h2>
           <p className="mt-4 max-w-3xl text-navy/80">
-            Permit readiness means the approvals for a specific phase are issued
-            and the conditions for starting that work are satisfied, including
-            applicable fees, bonds, inspections, and approved drawing revisions.
-            Submitting an application does not authorize construction.
+            <Link
+              href="/services/residential-land-entitlements/"
+              className="font-semibold underline underline-offset-4"
+            >
+              Residential land entitlements
+            </Link>{" "}
+            approve the land use and set the conditions. They do not authorize
+            grading or construction by themselves. Permit readiness comes later:
+            the approvals for a specific phase are issued and the conditions for
+            starting that work are satisfied, including applicable fees, bonds,
+            inspections, and approved drawing revisions. Submitting an
+            application does not authorize construction.
           </p>
           <p className="mt-4 max-w-3xl text-navy/80">
             Horizontal work includes clearing, demolition, grading, pads,

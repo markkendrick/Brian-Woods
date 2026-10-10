@@ -6,6 +6,10 @@ This monthly report documents on-site changes and summarizes off-site SEO work a
 
 Write every review address as a full URL. Use the Hostinger staging site until https://www.landdevspec.net/ points at this rebuild. After each save, rebuild the current Pacific-month PDF with `python3 scripts/customer-log-pdf.py`. Finished month files live in `docs/customer-log/` as `YYYY-MM.pdf`.
 
+## October 9, 2026, 5:26 PM PT
+
+On-site. We added a residential land entitlements page. It explains what a land use approval is, how that approval differs from a construction permit, and how applications, agency comments, and conditions of approval are tracked. The wording comes from questions 109 through 120. Entitlements: https://mistyrose-manatee-208344.hostingersite.com/services/residential-land-entitlements/ Services: https://mistyrose-manatee-208344.hostingersite.com/services/
+
 ## October 7, 2026, 4:33 PM PT
 
 On-site. The header and footer now use a corrected logo that reads Land Development Specialists LLC. On a phone, the header logo is a little larger. Staging homepage: https://mistyrose-manatee-208344.hostingersite.com/

@@ -41,7 +41,7 @@ export const pages = [
     path: "/services/",
     title: "Land Development Services | Land Development Specialists",
     description:
-      "Land development services from Land Development Specialists LLC, including acquisition review, plan approval, permitting, value engineering, and project management.",
+      "Land development services from Land Development Specialists LLC, including acquisition review, residential land entitlements, plan approval, permitting, value engineering, and project management.",
     h1: "Services",
     descriptionNote: "The live Services page had a title only. This description is new.",
   },
@@ -71,6 +71,14 @@ export const pages = [
       "Land development feasibility and due diligence in Riverside County. Review permitted use, utilities, access, costs, and whether a site can support homes or apartments before you buy.",
     h1: "Land Development Feasibility Study",
   },
+  {
+    path: "/services/residential-land-entitlements/",
+    title:
+      "Residential Land Entitlements Riverside County | Land Development Specialists",
+    description:
+      "Residential land entitlements in Riverside County for subdivisions of 50 to 200 lots and apartment sites of about 50 to 200 units.",
+    h1: "Residential Land Entitlements",
+  },
 ] as const;
 
 export const services = [
@@ -85,6 +93,12 @@ export const services = [
     href: "/services/residential-subdivision-development/",
     summary:
       "Plan, entitle, and deliver residential subdivisions of 50 to 200 lots, including finished lots sequenced for home construction.",
+  },
+  {
+    title: "Residential Land Entitlements",
+    href: "/services/residential-land-entitlements/",
+    summary:
+      "Coordinate the land use approvals for a subdivision or apartment site, including applications, agency comments, and conditions of approval.",
   },
   {
     title: "Plan Approval & Permitting",
@@ -120,6 +134,7 @@ export const processSteps = [
   {
     title: "Entitlements & Approvals",
     summary: "Coordinate mapping, CEQA, consultants, agencies, and permitting.",
+    href: "/services/residential-land-entitlements/",
   },
   {
     title: "Infrastructure & Sequencing",
@@ -406,5 +421,63 @@ export const feasibilityFaqs = [
     question: "What due diligence issues do buyers overlook most often?",
     answer:
       "The difference between utilities being nearby and utilities being available with enough capacity, plus the rights needed to reach those connections. Clear legal access and workable physical access are also critical, including whether a subdivision needs two separate access routes.",
+  },
+];
+
+export const entitlementFaqs = [
+  {
+    question: "What is a land entitlement?",
+    answer:
+      "An entitlement is a land use approval that allows a proposed use or development under stated conditions. The required approvals depend on the property, the project, and the local process.",
+  },
+  {
+    question: "Does every residential project need a subdivision approval?",
+    answer:
+      "Creating separate residential lots or condominium interests commonly involves subdivision approvals. An apartment project kept on one parcel may instead need a site plan, design, or other land use approval. Multiple homes do not, by themselves, require a subdivision.",
+  },
+  {
+    question: "Does an entitlement authorize grading or construction?",
+    answer:
+      "No. An entitlement approves the land use proposal and sets its conditions. A construction permit authorizes specific work under approved detailed plans. Entitlement approval is the framework for final engineering and building plans. It does not automatically authorize grading or construction.",
+  },
+  {
+    question: "What entitlement work do you help coordinate?",
+    answer:
+      "Application planning, consultant schedules, submittals, agency comments, required hearings, and conditions of approval. Plans are also reviewed for coordination, quality, and constructability. Required professional design and approvals stay with the licensed professionals and the agencies.",
+  },
+  {
+    question: "How do you build an entitlement schedule?",
+    answer:
+      "Define the project, identify the reviewing agencies, and compare the available approval paths with the planning team. The schedule includes required reports, applicable California Environmental Quality Act (CEQA) review, agency processing, and final approval milestones. Ask each agency for its prerequisites so the team can see which applications depend on earlier decisions and which can move together.",
+  },
+  {
+    question: "What should we bring to an initial planning meeting?",
+    answer:
+      "Parcel identification, ownership authorization when it is needed, a simple development concept, existing approvals, known constraints, and specific questions. Ask about allowed uses, density, applications, studies, agency coordination, and the expected review steps. Early feedback helps assess the path. It is not a final approval.",
+  },
+  {
+    question: "How are agency comments handled?",
+    answer:
+      "Each comment is logged, assigned to the appropriate consultant, and given a response deadline. Before the response goes back, the team checks whether a change affects other drawings or reports. The responsible team members still review the technical responses and confirm that the revisions address the agency's concerns.",
+  },
+  {
+    question: "Why do entitlement applications need revisions?",
+    answer:
+      "Common causes include incomplete information, conflicting drawings, missing studies, unmet standards, and changes to the proposed project. Revisions can also come from agency interpretations, design preferences, public feedback, or newly identified site issues.",
+  },
+  {
+    question: "How should conditions of approval be tracked?",
+    answer:
+      "Translate each condition into a required action, a responsible party, an estimated cost, and a completion milestone. Organize that tracking around the agency's deadlines, such as before grading permits, building permits, occupancy, and final acceptance. Include other milestones, such as final map approval, when they apply.",
+  },
+  {
+    question: "How can conditions of approval affect cost and schedule?",
+    answer:
+      "Conditions may require infrastructure, additional studies, mitigation, fees, inspections, landscaping, or ongoing maintenance. Some must be cleared before grading permits, building permits, occupancy, or final acceptance. A project can be physically ready for the next stage and still be delayed if a required condition has not been cleared.",
+  },
+  {
+    question: "Why is a projected entitlement date only an estimate?",
+    answer:
+      "Timing depends on the approval path, application completeness, technical issues, design changes, and agency workload. A projected date stays an estimate until the required decisions are made. Keep an updated schedule that shows unresolved issues, key deadlines, the critical path, and work that can proceed at the same time.",
   },
 ];

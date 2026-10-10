@@ -221,6 +221,14 @@ export default function FeasibilityPage() {
             >
               residential subdivision development
             </Link>
+            . When the concept is ready for land use approval, that work is
+            covered under{" "}
+            <Link
+              href="/services/residential-land-entitlements/"
+              className="font-semibold underline underline-offset-4"
+            >
+              residential land entitlements
+            </Link>
             .
           </p>
         </div>

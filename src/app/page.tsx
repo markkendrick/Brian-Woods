@@ -156,7 +156,9 @@ export default function HomePage() {
                       ? "Subdivision details"
                       : service.href === "/services/land-development-feasibility-study/"
                         ? "Feasibility details"
-                        : "Discuss this service"}
+                        : service.href === "/services/residential-land-entitlements/"
+                          ? "Entitlement details"
+                          : "Discuss this service"}
                 </Link>
               </li>
             ))}
@@ -177,7 +179,15 @@ export default function HomePage() {
           <ul className="mt-8 grid gap-5 sm:grid-cols-2">
             {processSteps.map((step) => (
               <li key={step.title}>
-                <h3 className="font-semibold">{step.title}</h3>
+                <h3 className="font-semibold">
+                  {"href" in step ? (
+                    <Link href={step.href} className="underline underline-offset-4">
+                      {step.title}
+                    </Link>
+                  ) : (
+                    step.title
+                  )}
+                </h3>
                 <p className="mt-2 text-sm leading-relaxed text-navy/75">{step.summary}</p>
               </li>
             ))}
