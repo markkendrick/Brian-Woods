@@ -83,9 +83,9 @@ Existing titles and homepage / about / contact descriptions were kept. New descr
 
 ## Launch
 
-1. Set `NEXT_PUBLIC_SITE_URL=https://landdevspec.net`.
+1. Set `NEXT_PUBLIC_SITE_URL=https://www.landdevspec.net`.
 2. Add Resend keys if the form should deliver email.
-3. Deploy, then switch the domain only when asked. `www` forwards to the apex.
-4. After launch: confirm all seven URLs return 200, submit Search Console sitemap `https://landdevspec.net/sitemap.xml`, and watch inquiries.
+3. Deploy, then switch the domain only when asked. The apex forwards to www.
+4. After launch: confirm all seven URLs return 200, submit Search Console sitemap `https://www.landdevspec.net/sitemap.xml`, and watch inquiries.
 
 Staging on `*.hostingersite.com` is set to `noindex`.
