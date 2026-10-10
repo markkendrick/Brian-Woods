@@ -59,6 +59,9 @@ export async function sendContactEmail(
   }
 
   const toAddress = (process.env.CONTACT_TO_EMAIL?.trim() || site.email).toLowerCase();
+  const bccAddress = (
+    process.env.CONTACT_BCC_EMAIL?.trim() || "mark@kendrickmountainconsulting.com"
+  ).toLowerCase();
   const fromAddress =
     process.env.CONTACT_FROM_EMAIL?.trim() ||
     "Land Development Specialists <onboarding@resend.dev>";
@@ -67,6 +70,7 @@ export async function sendContactEmail(
   const { error } = await resend.emails.send({
     from: fromAddress,
     to: toAddress,
+    bcc: bccAddress,
     replyTo: `${name} <${email}>`,
     subject: `Website inquiry — ${name}`,
     text: [
