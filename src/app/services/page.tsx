@@ -35,9 +35,9 @@ export default function ServicesPage() {
           <h1 className="font-display text-4xl font-semibold sm:text-5xl">{page.h1}</h1>
           <p className="mt-5 max-w-3xl text-lg text-navy/80">
             Dedicated service pages cover feasibility and due diligence,
-            residential subdivision development, and land development project
-            management. The topics below are the service areas described across
-            the site.
+            residential subdivision development, residential land entitlements,
+            and land development project management. The topics below are the
+            service areas described across the site.
           </p>
         </div>
       </section>
@@ -58,7 +58,9 @@ export default function ServicesPage() {
                     ? "Open the subdivision page"
                     : service.href === "/services/land-development-feasibility-study/"
                       ? "Open the feasibility page"
-                      : "Discuss this service"}
+                      : service.href === "/services/residential-land-entitlements/"
+                        ? "Open the entitlements page"
+                        : "Discuss this service"}
               </Link>
             </li>
           ))}

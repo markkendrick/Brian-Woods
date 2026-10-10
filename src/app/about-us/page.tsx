@@ -48,8 +48,14 @@ export default function AboutPage() {
             the real estate development sector. On tracts or large master plans.
           </p>
           <p className="mt-4 text-navy/85">
-            We assist clients through land acquisition, entitlements, and
-            construction. Value engineering reviews the design and construction
+            We assist clients through land acquisition,{" "}
+            <Link
+              href="/services/residential-land-entitlements/"
+              className="font-semibold underline underline-offset-4"
+            >
+              entitlements
+            </Link>
+            , and construction. Value engineering reviews the design and construction
             approach to reduce costs while keeping the project’s function and
             quality.
           </p>
