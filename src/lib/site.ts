@@ -1,4 +1,4 @@
-const PRODUCTION_SITE_URL = "https://www.landdevspec.net";
+const PRODUCTION_SITE_URL = "https://landdevspec.net";
 
 function resolveSiteUrl(): string {
   const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
@@ -7,7 +7,11 @@ function resolveSiteUrl(): string {
       ? raw
       : `https://${raw.replace(/^\/+/, "")}`;
     try {
-      return new URL(withProtocol).origin;
+      const url = new URL(withProtocol);
+      if (url.hostname === "landdevspec.net" || url.hostname === "www.landdevspec.net") {
+        return PRODUCTION_SITE_URL;
+      }
+      return url.origin;
     } catch {
       return PRODUCTION_SITE_URL;
     }

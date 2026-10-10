@@ -1,10 +1,22 @@
 # Apache / LiteSpeed in front of this site.
-# Send plain HTTP on landdevspec.net to the canonical HTTPS host, same path.
+# One host: https://landdevspec.net
+# www keeps the path and query and forwards there.
+# Plain http on the apex forwards to https on the same host.
+# A request that is already https on the apex does not match, so these rules cannot loop.
+# The target sets no query of its own, so Apache and LiteSpeed keep the original query string.
 # If http:// times out, port 80 never reaches this file. In Hostinger hPanel
 # open the landdevspec.net website, then SSL, and turn on Force HTTPS.
 <IfModule mod_rewrite.c>
 RewriteEngine On
+
+# www.landdevspec.net (http or https) -> https://landdevspec.net
+RewriteCond %{HTTP_HOST} ^www\.landdevspec\.net(:[0-9]+)?$ [NC]
+RewriteRule ^ https://landdevspec.net%{REQUEST_URI} [L,R=301]
+
+# http://landdevspec.net -> https://landdevspec.net
+# X-Forwarded-Proto: https means a proxy already terminated TLS. Do not redirect again.
 RewriteCond %{HTTPS} !=on
-RewriteCond %{HTTP_HOST} ^(www\.)?landdevspec\.net$ [NC]
-RewriteRule ^ https://www.landdevspec.net%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP:X-Forwarded-Proto} !^https [NC]
+RewriteCond %{HTTP_HOST} ^landdevspec\.net(:[0-9]+)?$ [NC]
+RewriteRule ^ https://landdevspec.net%{REQUEST_URI} [L,R=301]
 </IfModule>

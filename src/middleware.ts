@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const CANONICAL_ORIGIN = "https://www.landdevspec.net";
+const CANONICAL_HOST = "landdevspec.net";
+const CANONICAL_ORIGIN = "https://landdevspec.net";
 
 function requestProtocol(request: NextRequest): string {
   const forwarded = request.headers.get("x-forwarded-proto");
@@ -23,11 +24,14 @@ export function middleware(request: NextRequest) {
     return response;
   }
 
+  // www (either protocol) and plain http on the apex go to https://landdevspec.net.
+  // Path and query are kept. HTTPS on the apex is not redirected, so this cannot loop.
   // Plain HTTP only reaches this app when the host accepts port 80.
   // A hang on port 80 is fixed in Hostinger hPanel: Force HTTPS.
   const proto = requestProtocol(request);
-  const isSiteHost = host === "landdevspec.net" || host === "www.landdevspec.net";
-  if (isSiteHost && proto === "http") {
+  const isWww = host === `www.${CANONICAL_HOST}`;
+  const isApexHttp = host === CANONICAL_HOST && proto === "http";
+  if (isWww || isApexHttp) {
     const destination = new URL(
       `${request.nextUrl.pathname}${request.nextUrl.search}`,
       CANONICAL_ORIGIN,
