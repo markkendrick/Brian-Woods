@@ -44,7 +44,7 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
           <div className="max-w-2xl rounded-sm bg-cream/95 p-6 sm:p-10">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gold-deep">
-              SERVICING SOUTHERN CALIFORNIA OVER 20 YEARS PLUS.
+              SERVICING SOUTHERN CALIFORNIA FOR MORE THAN 40 YEARS.
             </p>
             <h1 className="mt-4 font-display text-4xl font-semibold leading-tight sm:text-5xl">
               {page.h1}
