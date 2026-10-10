@@ -6,6 +6,10 @@ This monthly report documents on-site changes and summarizes off-site SEO work a
 
 Write every review address as a full URL. Use the Hostinger staging site until https://www.landdevspec.net/ points at this rebuild. After each save, rebuild the current Pacific-month PDF with `python3 scripts/customer-log-pdf.py`. Finished month files live in `docs/customer-log/` as `YYYY-MM.pdf`.
 
+## October 10, 2026, 8:48 AM PT
+
+On-site. Two questions now say what Brian does with the consultants, attorneys, and environmental work, without saying what the firm is not. Homepage: https://mistyrose-manatee-208344.hostingersite.com/ Entitlements: https://mistyrose-manatee-208344.hostingersite.com/services/residential-land-entitlements/
+
 ## October 10, 2026, 8:40 AM PT
 
 Off-site. Submitted a free listing request to The Blue Book construction directory (a Blue Book rep will follow up) and set up a Brownbook business listing. Researched more industry listing opportunities.

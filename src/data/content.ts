@@ -216,7 +216,7 @@ export const homeFaqs = [
       "Land acquisition due diligence and feasibility, residential entitlements (including CEQA and mapping), subdivision development, value engineering, construction management and land development project management.",
   },
   {
-    question: "How is this different from hiring a civil engineering firm?",
+    question: "How does Brian work with the civil engineers and other consultants?",
     answer:
       "Brian works from the builder's side. He coordinates the civil engineers, planners, surveyors, geotechnical and other consultants, and keeps the budget, schedule and approvals moving. The licensed professionals still do and stamp their own technical work.",
   },
@@ -484,9 +484,9 @@ export const entitlementFaqs = [
       "Land Development Specialists LLC. Brian Woods coordinates the entitlement work for residential subdivisions of 50 to 200 lots and apartment sites of about 50 to 200 units, mainly in Riverside County and across Southern California.",
   },
   {
-    question: "Are you a law firm or an environmental consultant?",
+    question: "Who does the licensed legal and environmental work?",
     answer:
-      "No. Brian manages and coordinates the entitlement process. Land-use attorneys, planners, environmental consultants and engineers do their own licensed work, and the agencies make the decisions.",
+      "Brian manages and coordinates the entitlement process. Land-use attorneys, planners, environmental consultants and engineers do their own licensed work, and the agencies make the decisions.",
   },
   {
     question: "What is a land entitlement?",
