@@ -1,10 +1,9 @@
 export const pages = [
   {
     path: "/",
-    title:
-      "Land Development Consultant Southern California | Land Development Specialists",
+    title: "Land Development Consultant Southern California | LDS",
     description:
-      "Residential land development services for landowners in Southern California. Consulting, subdivision development, and project management for communities of 50 to 200 lots.",
+      "Residential land development for landowners in Southern California. Consulting, subdivision development, and project management for 50 to 200 lots.",
     h1: "Transforming Land Into Thriving Communities",
   },
   {
@@ -18,7 +17,7 @@ export const pages = [
     path: "/contact-us/",
     title: "Contact Land Development Specialists | Get Started",
     description:
-      "Looking for land development expertise? Contact Land Development Specialists for permitting, engineering, CEQA, and project management support. Get started today!",
+      "Contact Land Development Specialists for permitting, engineering, CEQA, and project management support. Get started today.",
     h1: "Contact us",
   },
   {
@@ -41,14 +40,13 @@ export const pages = [
     path: "/services/",
     title: "Land Development Services | Land Development Specialists",
     description:
-      "Land development services from Land Development Specialists LLC, including acquisition review, residential land entitlements, plan approval, permitting, value engineering, and project management.",
+      "Land development services from Land Development Specialists: acquisition review, entitlements, permitting, value engineering, and project management.",
     h1: "Services",
     descriptionNote: "The live Services page had a title only. This description is new.",
   },
   {
     path: "/services/land-development-project-management/",
-    title:
-      "Land Development Project Management Riverside County | Land Development Specialists",
+    title: "Land Development Project Management | Riverside County",
     description:
       "Residential development management and owner-representative project management in Riverside County for subdivisions of 50 to 200 lots.",
     h1: "End-to-End Land Development Project Management",
@@ -57,33 +55,30 @@ export const pages = [
   },
   {
     path: "/services/residential-subdivision-development/",
-    title:
-      "Residential Subdivision Development Riverside County | Land Development Specialists",
+    title: "Residential Subdivision Development Riverside County",
     description:
-      "Residential subdivision development in Riverside County for landowners and builders. Subdivisions of 50 to 200 lots, entitlements, infrastructure, and finished-lot delivery.",
+      "Residential subdivision development in Riverside County. Subdivisions of 50 to 200 lots, with entitlements, infrastructure, and finished-lot delivery.",
     h1: "Residential Subdivision Development",
   },
   {
     path: "/services/land-development-feasibility-study/",
-    title:
-      "Land Development Feasibility Study Corona & Riverside County | Land Development Specialists",
+    title: "Land Development Feasibility Study | Riverside County",
     description:
-      "Land acquisition due diligence and feasibility studies in Corona, western Riverside County, and Southern California. Check use, access, utilities, and cost before you buy.",
+      "Land acquisition due diligence and feasibility studies in Corona and western Riverside County. Check use, access, utilities, and cost before you buy.",
     h1: "Land Development Feasibility Study",
   },
   {
     path: "/services/residential-land-entitlements/",
-    title:
-      "Residential Land Entitlements, CEQA and Tentative Tract Maps | Riverside County & Southern California",
+    title: "Residential Land Entitlements, CEQA, Tentative Tract Maps",
     description:
-      "Entitlement coordination in Riverside County and Southern California, including CEQA review and tentative tract map approval, for subdivisions and apartment sites.",
+      "Entitlement coordination in Riverside County and Southern California, including CEQA and tentative tract map approval for subdivisions and apartment sites.",
     h1: "Residential Land Entitlements, CEQA and Tentative Tract Maps",
   },
   {
     path: "/services/value-engineering/",
-    title: "Value Engineering for Land Development | Land Development Specialists",
+    title: "Value Engineering for Land Development | LDS",
     description:
-      "Value engineering for residential land development in Orange County, Los Angeles County, and Southern California. Review plans, grading, walls, utilities, and bids.",
+      "Value engineering for land development in Orange County, Los Angeles County, and Southern California. Review plans, grading, walls, utilities, and bids.",
     h1: "Value Engineering for Land Development",
   },
 ] as const;

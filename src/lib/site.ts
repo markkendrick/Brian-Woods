@@ -27,7 +27,7 @@ export const site = {
   founder: "Brian Woods",
   jobTitle: "Principal",
   description:
-    "Residential land development services for landowners in Southern California. Consulting, subdivision development, and project management for communities of 50 to 200 lots.",
+    "Residential land development for landowners in Southern California. Consulting, subdivision development, and project management for 50 to 200 lots.",
   url: resolveSiteUrl(),
   email: (
     process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "brian@landdevspec.net"
@@ -40,12 +40,12 @@ export const site = {
   country: "US",
   serviceArea: "Southern California",
   logoPath: "/images/brand/logo.png",
-  logoWidth: 1280,
-  logoHeight: 374,
+  logoWidth: 274,
+  logoHeight: 80,
   logoAlt: "Land Development Specialists LLC",
   footerLogoPath: "/images/brand/logo.png",
-  footerLogoWidth: 1280,
-  footerLogoHeight: 374,
+  footerLogoWidth: 384,
+  footerLogoHeight: 112,
   verification: "6dhZSbUz54TuzSBemcu7bgiusI6IcNMxMkUPnD01yek",
   analyticsId: "G-ELK6NKXXZY",
 };

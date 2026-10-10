@@ -24,34 +24,18 @@ export default function LegalNoticePage() {
       />
       <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
         <h1 className="font-display text-4xl font-semibold">{page.h1}</h1>
-        <p className="mt-6 text-sm text-navy/65">
-          The live legal page used unfilled theme placeholders. Those headings
-          are preserved. Verified business details are shown where they exist.
-          Business ID, VAT, and regulatory-authority numbers were not published
-          on the current site and are not invented here.
-        </p>
 
-        <h2 className="mt-10 font-display text-2xl font-semibold">Name of company</h2>
+        <h2 className="mt-10 font-display text-2xl font-semibold">Company</h2>
         <p className="mt-3 text-navy/85">{site.legalName}</p>
 
-        <h2 className="mt-8 font-display text-2xl font-semibold">Registered office</h2>
+        <h2 className="mt-8 font-display text-2xl font-semibold">Mailing address</h2>
         <p className="mt-3 text-navy/85">{site.poBox}</p>
 
-        <h2 className="mt-8 font-display text-2xl font-semibold">Contact details</h2>
-        <p className="mt-3 text-navy/85">
-          {site.email}
-          <br />
-          {site.phone}
-        </p>
+        <h2 className="mt-8 font-display text-2xl font-semibold">Email</h2>
+        <p className="mt-3 text-navy/85">{site.email}</p>
 
-        <h2 className="mt-8 font-display text-2xl font-semibold">Business ID no.</h2>
-        <p className="mt-3 text-navy/85">Not published on the current website.</p>
-
-        <h2 className="mt-8 font-display text-2xl font-semibold">VAT no.</h2>
-        <p className="mt-3 text-navy/85">Not published on the current website.</p>
-
-        <h2 className="mt-8 font-display text-2xl font-semibold">Regulatory authority</h2>
-        <p className="mt-3 text-navy/85">Not published on the current website.</p>
+        <h2 className="mt-8 font-display text-2xl font-semibold">Phone</h2>
+        <p className="mt-3 text-navy/85">{site.phone}</p>
       </article>
     </>
   );
