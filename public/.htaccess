@@ -1,0 +1,10 @@
+# Apache / LiteSpeed in front of this site.
+# Send plain HTTP on landdevspec.net to the canonical HTTPS host, same path.
+# If http:// times out, port 80 never reaches this file. In Hostinger hPanel
+# open the landdevspec.net website, then SSL, and turn on Force HTTPS.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^(www\.)?landdevspec\.net$ [NC]
+RewriteRule ^ https://www.landdevspec.net%{REQUEST_URI} [L,R=301]
+</IfModule>

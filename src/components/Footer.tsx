@@ -49,6 +49,11 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link className="underline decoration-gold/50 underline-offset-2 hover:decoration-gold" href="/services/value-engineering/">
+                Value Engineering
+              </Link>
+            </li>
+            <li>
               <Link className="underline decoration-gold/50 underline-offset-2 hover:decoration-gold" href="/services/land-development-project-management/">
                 Land Development Project Management
               </Link>

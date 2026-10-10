@@ -50,17 +50,8 @@ export default function HomePage() {
               {page.h1}
             </h1>
             <p className="mt-5 text-lg leading-relaxed text-navy/85">
-              {site.name} works with developers and landowners through land
-              acquisition, plan approvals, permitting, value engineering, and
-              construction management. With more than 40 years of hands-on
-              experience, we help evaluate risk, build realistic budgets and
-              schedules, coordinate the moving parts, and keep development work
-              moving toward completion.
-            </p>
-            <p className="mt-4 text-navy/80">
-              We focus on the decisions that affect feasibility, cost, timing,
-              approvals, and execution so each phase supports what comes next in
-              the project.
+              Brian Woods helps landowners and builders take a property from the
+              first look through approvals and construction.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -78,6 +69,19 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <h2 className="font-display text-3xl font-semibold">
+          Southern California land development consulting
+        </h2>
+        <p className="mt-4 max-w-3xl text-lg leading-relaxed text-navy/85">
+          {site.name} is a Southern California land development consulting firm
+          led by Brian Woods. Brian spent 21 years in vice president-level land
+          development roles with D.R. Horton, Pulte/Del Webb, Richmond American
+          Homes and Foremost Communities, and has worked on more than 13,000
+          residential lots and 8+ master plans. Call {phone}.
+        </p>
       </section>
 
       <section className="bg-cream-deep">
@@ -140,9 +144,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <h2 className="font-display text-3xl font-semibold">What we offer</h2>
           <p className="mt-4 max-w-3xl text-navy/80">
-            From acquisition review to construction management, our team provides
-            land development services in Los Angeles and across nearby Southern
-            California communities.
+            From acquisition review to construction management, we provide land
+            development services across Southern California.
           </p>
           <ul className="mt-10 grid gap-6 md:grid-cols-2">
             {services.map((service) => (
@@ -158,7 +161,9 @@ export default function HomePage() {
                         ? "Feasibility details"
                         : service.href === "/services/residential-land-entitlements/"
                           ? "Entitlement details"
-                          : "Discuss this service"}
+                          : service.href === "/services/value-engineering/"
+                            ? "Value engineering details"
+                            : "Discuss this service"}
                 </Link>
               </li>
             ))}
@@ -211,8 +216,8 @@ export default function HomePage() {
             in for a focused need or stay involved across multiple stages.
           </p>
           <p className="mt-4 max-w-3xl text-navy/80">
-            If you need a land development consultant in or around Huntington
-            Beach for one phase or broader project oversight, we can match our
+            If you need a land development consultant in Southern California
+            for one phase or broader project oversight, we can match our
             involvement to where the project needs experienced support.
           </p>
           <ul className="mt-10 grid gap-6 md:grid-cols-3">
@@ -315,7 +320,7 @@ export default function HomePage() {
 
       <CtaBand
         title="Need assistance to develop your land?"
-        body="Need land development services in Los Angeles for a property under review, an approval process already underway, or a project moving into construction? Tell us where the project stands, what has already been completed, and where you need support."
+        body="Need land development services in Southern California for a property under review, an approval process already underway, or a project moving into construction? Tell us where the project stands, what has already been completed, and where you need support."
       />
     </>
   );

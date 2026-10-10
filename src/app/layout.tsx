@@ -5,7 +5,7 @@ import Script from "next/script";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
-import { organizationSchema, websiteSchema } from "@/lib/schema";
+import { organizationSchema, personSchema, websiteSchema } from "@/lib/schema";
 import { isStagingHost, site, toAbsoluteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -69,7 +69,7 @@ export default async function RootLayout({
             </Script>
           </>
         ) : null}
-        <JsonLd data={[organizationSchema(), websiteSchema()]} />
+        <JsonLd data={[organizationSchema(), personSchema(), websiteSchema()]} />
         <a className="skip-link" href="#main">
           Skip to content
         </a>

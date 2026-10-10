@@ -52,9 +52,19 @@ export default function ResidentialLandEntitlementsPage() {
             { name: "Residential Land Entitlements", path: page.path },
           ]),
           serviceSchema({
-            name: "Residential Land Entitlements",
-            description: page.description,
+            name: "Residential Land Entitlements, CEQA, and Tentative Tract Maps",
+            description:
+              "Entitlement coordination for residential subdivisions of 50 to 200 lots and apartment sites of about 50 to 200 units: application planning, CEQA scheduling, agency comments, hearings, and conditions of approval.",
             path: page.path,
+            serviceType: [
+              "Land entitlement consulting",
+              "CEQA review coordination",
+              "Tentative tract map approval coordination",
+            ],
+            areaServed: [
+              { "@type": "AdministrativeArea", name: "Riverside County, California" },
+              { "@type": "Place", name: "Southern California" },
+            ],
           }),
           faqSchema(entitlementFaqs),
         ]}
@@ -72,12 +82,34 @@ export default function ResidentialLandEntitlementsPage() {
             Move a residential project from a concept to the approvals that let
             it be built
           </p>
-          <p className="mt-5 max-w-3xl text-navy/80">
-            {site.name} helps landowners in Riverside County and across Southern
-            California get residential land use approvals in place. The work
-            covers the applications, agency reviews, and conditions that shape a
-            subdivision or an apartment site before grading and construction can
-            start.
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <h2 className="font-display text-3xl font-semibold">
+          Entitlements in Riverside County and Southern California
+        </h2>
+        <p className="mt-4 max-w-3xl text-lg leading-relaxed text-navy/85">
+          {site.name} helps landowners and builders in Riverside County and
+          across Southern California get residential projects through
+          entitlements, including CEQA review and tentative tract map approval.
+          Brian Woods coordinates the consultants, agency comments, hearings and
+          conditions of approval, drawing on more than 40 years in land
+          development. Call (760) 271-1081.
+        </p>
+      </section>
+
+      <section className="bg-paper">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+          <h2 className="font-display text-3xl font-semibold">
+            CEQA and tentative tract maps
+          </h2>
+          <p className="mt-4 max-w-3xl text-navy/80">
+            CEQA review sits in the entitlement schedule with the required
+            reports, agency processing, and the final approval milestones. For a
+            subdivision, road widening and related off-site work need to be
+            identified during the entitlement and tentative map process, so the
+            final map and improvement plans reflect them.
           </p>
         </div>
       </section>
