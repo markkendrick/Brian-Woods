@@ -71,3 +71,62 @@ Do not create thin Palmdale, Fontana, Chatsworth, or South Corona city pages fro
 ## Next page to create
 
 **Multifamily development consultant, Southern California.** Proposed path: `/services/multifamily-development/`. Supporting phrases: apartment development company; garden style / two-story apartment development. No labeled apartment photos yet. Use only Brian’s apartment notes. Do not invent a city page.
+
+## Build schedule (Tue and Thu, 4:47 AM PT), planned Oct 10, 2026
+
+Same rules as above: copy comes only from `docs/knowledge/` or from Brian. Short, warm heroes with no prices. Captions are one short plain sentence, about 12 words or fewer, and only on Brian's labeled photos. Say what the firm does, never who it is not. Contact details stay exactly as in `facts.md`: Land Development Specialists LLC, Brian Woods, Principal, P.O. Box 5833, Huntington Beach, CA 92615, (760) 271-1081, brian@landdevspec.net. Canonical host is `https://www.landdevspec.net/` with trailing slashes.
+
+| Date | Row | Page | Path |
+| --- | --- | --- | --- |
+| Tue Oct 13 | 6 | Multifamily development consultant, Southern California | `/services/multifamily-development/` |
+| Thu Oct 15 | 17 | Subdivision infrastructure planning | `/services/subdivision-infrastructure-planning/` |
+| Tue Oct 20 | 16 | Approved but unbuilt subdivisions | `/services/approved-unbuilt-subdivisions/` |
+| Thu Oct 22 | 18 | Cost to complete and unfinished projects | `/services/cost-to-complete/` |
+| Tue Oct 27 | new | Can my land be developed? (landowner intent) | `/services/land-development-potential/` |
+| Thu Oct 29 | 7 | Menifee, **only if Brian supplies Menifee material**. If he doesn't, hold the slot. | `/menifee-land-development/` |
+
+### Row 6: Multifamily development consultant (Oct 13)
+
+- Target: multifamily development consultant Southern California. Supporting: apartment development company; garden-style or two-story apartment development.
+- H2s: What Brian does on apartment projects · Is the site right for apartments? (Q44) · Density, height, parking, and lot coverage set the unit count (Q104–Q107) · Fire and emergency access on multifamily sites (Q128–Q129) · Helping apartment builders find sites (acquisition support) · Typical scale: about 50 to 200 units
+- Internal links: `/services/land-development-feasibility-study/`, `/services/residential-land-entitlements/`, `/services/value-engineering/`, `/services/land-development-project-management/`, `/services/`, `/contact-us/`
+- KB: `acquisition-feasibility.md` Q44, Q53–Q55, Q61–Q62; `due-diligence-process.md` Q104–Q107; `entitlements-permits.md` Q109, Q128–Q129; `facts.md` scale table; `land-development-basics.md` project types
+- Care: no apartment photos are labeled yet, so use none or a neutral site photo with an honest caption. No city page.
+
+### Row 17: Subdivision infrastructure planning (Oct 15)
+
+- Target: subdivision infrastructure planning. Supporting: off-site improvements; utility extensions; frontage improvements.
+- H2s: Plan the utilities with the lot layout (Q149) · Water, sewer, power, and storm drain (Q172–Q175) · Off-site work, frontage, and road widening (Q181–Q185) · Why utility coordination is hard, and outside agencies (Q186–Q188) · Documenting underground work before it's covered (Q196) · Examples from Brian's projects
+- Internal links: `/services/residential-subdivision-development/`, `/services/land-development-project-management/`, `/services/land-development-feasibility-study/`, `/services/value-engineering/`
+- KB: `site-planning-construction.md` Q149, Q171–Q176, Q181–Q188, Q196, Q199; `facts.md` (lift station capacity)
+- Photos: Brodiaea sewer, Avenue 44 undergrounding, Alessandro median, Channel, Marbella Rule 20, Sierra Vista utilities (`docs/knowledge/photos.md`)
+
+### Row 16: Approved but unbuilt subdivisions (Oct 20)
+
+- Target: approved but unbuilt subdivision. Supporting: remaining phases; restarting a stalled subdivision.
+- H2s: What an approval gives you, and what it still needs (Q109–Q110) · Read the conditions of approval first (Q117–Q119) · Is a phase ready for the next stage? (Q179) · What a builder should verify before treating lots as ready (Q200) · Design changes after approval (Q131–Q132)
+- Internal links: `/services/residential-land-entitlements/`, `/services/residential-subdivision-development/`, `/services/land-development-project-management/`
+- KB: `entitlements-permits.md` Q109–Q110, Q117–Q119, Q131–Q134; `site-planning-construction.md` Q179, Q200
+- Photos: Deerlake Poema clubhouse with remaining pads; Dahlia Phases 3–5
+- **Ask Brian:** does he take on approved-but-unbuilt or stalled projects as a distinct service, and is there one example he's OK naming?
+
+### Row 18: Cost to complete and unfinished projects (Oct 22)
+
+- Target: cost to complete land development. Supporting: unfinished subdivision; completing site improvements.
+- H2s: Where an unfinished project really stands · When site conditions differ from the plans (Q169) · Corrections and inspections still open (Q193–Q195) · Protecting what's already built (Q198) · Assumptions that change the numbers (Q68)
+- Internal links: `/services/land-development-feasibility-study/`, `/services/value-engineering/`, `/services/land-development-project-management/`
+- KB: `site-planning-construction.md` Q169, Q193–Q198, Q200; `acquisition-feasibility.md` Q68–Q69
+- Photos: Dahlia fill and refinish; Sierra Vista unfinished streets
+- **Ask Brian:** does he prepare cost-to-complete estimates or reports, and what does the client receive? Don't publish a deliverable he hasn't described.
+
+### New: Can my land be developed? (Oct 27)
+
+- Target: can my land be developed. Supporting: develop my land into a housing community; is my property buildable.
+- H2s: What Brian needs to start a review (Q42) · Cheap land that's costly to develop (Q46) · No utilities, limited access, steep slopes, odd shapes (Q47–Q50) · What a listing can't tell you (Q56) · Dig deeper or walk away (Q58–Q60) · Next step: a feasibility study
+- Internal links: `/services/land-development-feasibility-study/` (main next step), `/services/residential-subdivision-development/`, `/services/residential-land-entitlements/`, `/contact-us/`
+- KB: `acquisition-feasibility.md` Q41–Q60, Q80
+- Care: written for landowners. Don't recopy the feasibility page's due-diligence process. Link to it.
+
+### Inland city pages (rows 7–15)
+
+`docs/knowledge/` has no Menifee, Perris, Hemet, San Jacinto, Beaumont, Banning, Wildomar, Lake Elsinore, or Ontario material, and there are no city-labeled photos. Hold these pages until Brian supplies, for each city, at least one of: projects he worked on there, agencies or approval steps he knows there, or site conditions specific to that city. The research PDF is for targeting only, not for copy.
