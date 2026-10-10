@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CtaBand } from "@/components/CtaBand";
+import { FaqList } from "@/components/FaqList";
 import { JsonLd } from "@/components/JsonLd";
-import { pages } from "@/data/content";
-import { breadcrumbSchema } from "@/lib/schema";
+import { aboutFaqs, pages } from "@/data/content";
+import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
@@ -19,10 +20,13 @@ export default function AboutPage() {
   return (
     <>
       <JsonLd
-        data={breadcrumbSchema([
-          { name: "Home", path: "/" },
-          { name: "About Us", path: "/about-us/" },
-        ])}
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "About Us", path: "/about-us/" },
+          ]),
+          faqSchema(aboutFaqs),
+        ]}
       />
 
       <section className="border-b border-navy/10 bg-cream-deep">
@@ -32,10 +36,21 @@ export default function AboutPage() {
           </p>
           <h1 className="mt-3 font-display text-4xl font-semibold sm:text-5xl">{page.h1}</h1>
           <p className="mt-5 max-w-3xl text-lg text-navy/80">
-            Professionals in land development, working with tracts and large
-            master-planned communities.
+            Brian Woods leads Land Development Specialists.
           </p>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <h2 className="font-display text-3xl font-semibold">Brian Woods</h2>
+        <p className="mt-4 max-w-3xl text-lg leading-relaxed text-navy/85">
+          Brian Woods is the principal of {site.name}, a land development
+          consulting firm for Southern California developers and landowners. He
+          started in England with a degree in civil and structural design, came
+          to Southern California in 1982, and holds a California Class A General
+          Engineering Contractor license. His work covers more than 13,000
+          residential lots.
+        </p>
       </section>
 
       <section className="mx-auto grid max-w-6xl items-start gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2">
@@ -60,13 +75,9 @@ export default function AboutPage() {
             quality.
           </p>
           <p className="mt-4 text-navy/85">
-            Brian Woods leads the work. His career began in England with a degree
-            in civil and structural design. He moved to Southern California in
-            1982. The work since then includes more than 13,000 residential lots,
-            more than eight master-planned communities, and a California Class A
-            General Engineering Contractor license. About 20 years of that
-            career were in senior leadership with public builders, including
-            Vice President-level land development roles with D.R. Horton,
+            That work includes more than eight master-planned communities. About
+            20 years of his career were in senior leadership with public builders,
+            including Vice President-level land development roles with D.R. Horton,
             Foremost Communities, Pulte/Del Webb, and Richmond American Homes.
           </p>
           <Link
@@ -93,6 +104,15 @@ export default function AboutPage() {
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="h-auto w-full rounded-sm object-cover"
           />
+        </div>
+      </section>
+
+      <section className="bg-cream-deep">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+          <h2 className="font-display text-3xl font-semibold">Frequently asked questions</h2>
+          <div className="mt-8">
+            <FaqList items={aboutFaqs} />
+          </div>
         </div>
       </section>
 

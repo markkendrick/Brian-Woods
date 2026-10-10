@@ -14,9 +14,9 @@ Preferred scale on service pages, from Brian: subdivisions of **50 to 200 lots**
 
 | Group | Existing URL | Status |
 | --- | --- | --- |
-| 1. Southern California consultant | `/` | Homepage. Retarget title and description away from Huntington Beach / Los Angeles. |
+| 1. Southern California consultant | `/` | Done. Homepage title, description, and body target Southern California. Huntington Beach and Los Angeles are no longer the homepage targets. |
 | 2. Project management | `/services/land-development-project-management/` | Keep this URL. Retarget to Riverside County. |
-| Services hub | `/services/` | Keep. Point to consultant, subdivision, feasibility, entitlements, and project-management pages. |
+| Services hub | `/services/` | Keep. Point to consultant, subdivision, feasibility, entitlements, value engineering, and project-management pages. |
 
 ## New pages (create in this order)
 
@@ -24,7 +24,8 @@ Preferred scale on service pages, from Brian: subdivisions of **50 to 200 lots**
 | --- | --- | --- | --- |
 | 3 | residential subdivision development Riverside County | `/services/residential-subdivision-development/` | Created. Supporting: residential subdivision developer; subdivision development company; develop my land into a housing community |
 | 4 | land development feasibility study Riverside County | `/services/land-development-feasibility-study/` | Created. Supporting: residential subdivision feasibility study; due diligence; lot yield analysis |
-| 5 | residential land entitlement services Riverside County | `/services/residential-land-entitlements/` | Created. Supporting: residential entitlement consultant; tentative tract map consultant |
+| 5 | residential land entitlement services Riverside County | `/services/residential-land-entitlements/` | Created. Supporting: residential entitlement consultant; tentative tract map consultant; CEQA |
+| 5b | value engineering for land development | `/services/value-engineering/` | Created. Supporting: value engineering consultant in Orange County and Los Angeles County; plan, grading, wall, and bid review |
 | 6 | multifamily development consultant Southern California | `/services/multifamily-development/` | apartment development company; garden style / two-story apartment development |
 
 Then inland market pages, only with distinct local material:
@@ -62,6 +63,7 @@ No labeled apartment photos yet. No city-named inland photos yet.
 - Two access routes, site planning, lot readiness: `/services/residential-subdivision-development/`
 - Permit readiness, constructability, horizontal sequence, South Corona 540-lot example: `/services/land-development-project-management/`
 - Entitlements, strategy, conditions of approval, CEQA schedule (Q109–120): `/services/residential-land-entitlements/`
+- Value engineering, materials, walls, pipe routes, Corona culverts, entry gate (Q153–Q159 and the Corona bridge note): `/services/value-engineering/`
 - Nearby utility line FAQ: `/`
 
 Do not create thin Palmdale, Fontana, Chatsworth, or South Corona city pages from those project examples.

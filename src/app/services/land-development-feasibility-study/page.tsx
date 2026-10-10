@@ -32,9 +32,19 @@ export default function FeasibilityPage() {
             },
           ]),
           serviceSchema({
-            name: "Land Development Feasibility Study",
+            name: "Land Development Feasibility Study and Due Diligence",
             description: page.description,
             path: page.path,
+            serviceType: [
+              "Land acquisition due diligence",
+              "Feasibility study",
+              "Residual land value analysis",
+            ],
+            areaServed: [
+              { "@type": "City", name: "Corona, CA" },
+              { "@type": "AdministrativeArea", name: "Riverside County, California" },
+              { "@type": "Place", name: "Southern California" },
+            ],
           }),
           faqSchema(feasibilityFaqs),
         ]}
@@ -52,13 +62,37 @@ export default function FeasibilityPage() {
             Find out whether a property can support the homes or apartments you
             have in mind before you buy
           </p>
-          <p className="mt-5 max-w-3xl text-navy/80">
-            {site.name} reviews land in Riverside County and across Southern
-            California before a purchase or a design commitment. The work covers
-            permitted use, access, utilities, drainage, soils, environmental
-            concerns, expected approvals, and total development costs, then tests
-            whether the intended product fits the site and the market.
-          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <h2 className="font-display text-3xl font-semibold">
+          Due diligence in Corona and Riverside County
+        </h2>
+        <p className="mt-4 max-w-3xl text-lg leading-relaxed text-navy/85">
+          {site.name} does land acquisition due diligence and feasibility
+          studies for residential land in Corona, western Riverside County and
+          across Southern California. Before you buy, Brian Woods checks
+          permitted use, access, utilities, drainage, soils, approvals and total
+          development cost, drawing on master-planned community work in South
+          Corona. Call (760) 271-1081.
+        </p>
+      </section>
+
+      <section className="bg-paper">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+          <h2 className="font-display text-3xl font-semibold">Experience in Corona</h2>
+          <ul className="mt-6 max-w-3xl list-disc space-y-3 pl-5 text-navy/80">
+            <li>
+              Brian worked on a large master-planned community in South Corona.
+              The first phase was 540 lots, finished in about nine months.
+            </li>
+            <li>
+              Two Corona bridge crossings used large precast arch culverts with
+              spans of about 48 feet. They were finished in about six months,
+              for less than the conventional bridge approach.
+            </li>
+          </ul>
         </div>
       </section>
 

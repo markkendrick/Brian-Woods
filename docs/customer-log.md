@@ -6,6 +6,18 @@ This monthly report documents on-site changes and summarizes off-site SEO work a
 
 Write every review address as a full URL. Use the Hostinger staging site until https://www.landdevspec.net/ points at this rebuild. After each save, rebuild the current Pacific-month PDF with `python3 scripts/customer-log-pdf.py`. Finished month files live in `docs/customer-log/` as `YYYY-MM.pdf`.
 
+## October 10, 2026, 8:48 AM PT
+
+On-site. Two questions now say what Brian does with the consultants, attorneys, and environmental work, without saying what the firm is not. Homepage: https://mistyrose-manatee-208344.hostingersite.com/ Entitlements: https://mistyrose-manatee-208344.hostingersite.com/services/residential-land-entitlements/
+
+## October 10, 2026, 8:40 AM PT
+
+Off-site. Submitted a free listing request to The Blue Book construction directory (a Blue Book rep will follow up) and set up a Brownbook business listing. Researched more industry listing opportunities.
+
+## October 10, 2026, 8:23 AM PT
+
+On-site. The homepage now answers, up front, who we are for landowners in Southern California, and it names Brian Woods. The about page leads with Brian. The entitlements page now covers CEQA and tentative tract maps. The feasibility page names Corona, including the South Corona master-planned community and the two Corona bridge crossings. A new value engineering page is linked from the services page and the footer. A short plain-text summary is available for answer tools, and plain http addresses are set to send people to the secure site when the host accepts them. Homepage: https://mistyrose-manatee-208344.hostingersite.com/ About: https://mistyrose-manatee-208344.hostingersite.com/about-us/ Entitlements: https://mistyrose-manatee-208344.hostingersite.com/services/residential-land-entitlements/ Feasibility: https://mistyrose-manatee-208344.hostingersite.com/services/land-development-feasibility-study/ Value engineering: https://mistyrose-manatee-208344.hostingersite.com/services/value-engineering/ Services: https://mistyrose-manatee-208344.hostingersite.com/services/ Summary file: https://mistyrose-manatee-208344.hostingersite.com/llms.txt
+
 ## October 9, 2026, 5:26 PM PT
 
 On-site. We added a residential land entitlements page. It explains what a land use approval is, how that approval differs from a construction permit, and how applications, agency comments, and conditions of approval are tracked. The wording comes from questions 109 through 120. Entitlements: https://mistyrose-manatee-208344.hostingersite.com/services/residential-land-entitlements/ Services: https://mistyrose-manatee-208344.hostingersite.com/services/

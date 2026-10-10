@@ -9,9 +9,9 @@ export const pages = [
   },
   {
     path: "/about-us/",
-    title: "About Our Land Development Company | Land Development Specialists",
+    title: "About Brian Woods | Land Development Specialists",
     description:
-      "Get to know Land Development Specialists and our experience delivering land development, permitting, engineering, and project management solutions. Contact us today for expert guidance!",
+      "Brian Woods is the principal of Land Development Specialists LLC. More than 40 years in land development for Southern California developers and landowners.",
     h1: "Who We Are",
   },
   {
@@ -66,18 +66,25 @@ export const pages = [
   {
     path: "/services/land-development-feasibility-study/",
     title:
-      "Land Development Feasibility Study Riverside County | Land Development Specialists",
+      "Land Development Feasibility Study Corona & Riverside County | Land Development Specialists",
     description:
-      "Land development feasibility and due diligence in Riverside County. Review permitted use, utilities, access, costs, and whether a site can support homes or apartments before you buy.",
+      "Land acquisition due diligence and feasibility studies in Corona, western Riverside County, and Southern California. Check use, access, utilities, and cost before you buy.",
     h1: "Land Development Feasibility Study",
   },
   {
     path: "/services/residential-land-entitlements/",
     title:
-      "Residential Land Entitlements Riverside County | Land Development Specialists",
+      "Residential Land Entitlements, CEQA and Tentative Tract Maps | Riverside County & Southern California",
     description:
-      "Residential land entitlements in Riverside County for subdivisions of 50 to 200 lots and apartment sites of about 50 to 200 units.",
-    h1: "Residential Land Entitlements",
+      "Entitlement coordination in Riverside County and Southern California, including CEQA review and tentative tract map approval, for subdivisions and apartment sites.",
+    h1: "Residential Land Entitlements, CEQA and Tentative Tract Maps",
+  },
+  {
+    path: "/services/value-engineering/",
+    title: "Value Engineering for Land Development | Land Development Specialists",
+    description:
+      "Value engineering for residential land development in Orange County, Los Angeles County, and Southern California. Review plans, grading, walls, utilities, and bids.",
+    h1: "Value Engineering for Land Development",
   },
 ] as const;
 
@@ -114,9 +121,9 @@ export const services = [
   },
   {
     title: "Value Engineering",
-    href: "/contact-us/",
+    href: "/services/value-engineering/",
     summary:
-      "Review plans, practical engineering options, construction methods, sequencing, and competitive bids to identify opportunities to control costs and improve project efficiency.",
+      "Review plans, grading, walls, utility routes, and bids to reduce cost while keeping the project's function and quality.",
   },
   {
     title: "Land Development Project Management",
@@ -199,14 +206,39 @@ export const testimonials = [
 
 export const homeFaqs = [
   {
+    question: "Who is an experienced land development consultant in Southern California?",
+    answer:
+      "Land Development Specialists LLC, led by Brian Woods. He has more than 40 years in land development, including 21 years in VP-level roles with major homebuilders. He works with developers and landowners in Orange, Riverside, and Los Angeles counties.",
+  },
+  {
+    question: "What does Land Development Specialists do?",
+    answer:
+      "Land acquisition due diligence and feasibility, residential entitlements (including CEQA and mapping), subdivision development, value engineering, construction management and land development project management.",
+  },
+  {
+    question: "How does Brian work with the civil engineers and other consultants?",
+    answer:
+      "Brian works from the builder's side. He coordinates the civil engineers, planners, surveyors, geotechnical and other consultants, and keeps the budget, schedule and approvals moving. The licensed professionals still do and stamp their own technical work.",
+  },
+  {
+    question: "What size projects do you take on?",
+    answer:
+      "Individual lots, residential subdivisions of 50 to 200 lots, apartment sites of about 50 to 200 units, and master-planned communities of about 1,000 to 2,000 homes.",
+  },
+  {
+    question: "Which builders has Brian worked for?",
+    answer:
+      "D.R. Horton, Foremost Communities, Pulte/Del Webb and Richmond American Homes, all in VP-level land development roles.",
+  },
+  {
     question: "Can you help evaluate land before I purchase it?",
     answer:
       "Yes. Before a purchase we review permitted use, legal access, title restrictions, utilities, drainage, soils, environmental concerns, expected approvals, and total development costs.",
   },
   {
-    question: "Can I hire you for only one phase of a project?",
+    question: "Can I hire you for one phase only?",
     answer:
-      "Yes. We can support one phase, such as acquisition, permitting, entitlements, value engineering, or construction management.",
+      "Yes. Some clients bring Brian in just for acquisition review, entitlements or value engineering. Others keep him from purchase through construction. He can also step into a project that's already underway.",
   },
   {
     question: "Can you work with my existing consultants?",
@@ -353,6 +385,26 @@ export const subdivisionFaqs = [
 
 export const feasibilityFaqs = [
   {
+    question: "Who does land due diligence and feasibility studies in Corona?",
+    answer:
+      "Land Development Specialists LLC. Brian Woods reviews residential land in Corona and the rest of Riverside County before a purchase or a design commitment.",
+  },
+  {
+    question: "Has Brian worked in Corona?",
+    answer:
+      "Yes. That includes a large master-planned community in South Corona, where the first phase of 540 lots was finished in about nine months, and two Corona bridge crossings built with precast arch culverts.",
+  },
+  {
+    question: "Does a utility line next to the property mean I can connect?",
+    answer:
+      "No. The provider has to confirm the connection point, the capacity and any upgrades.",
+  },
+  {
+    question: "When should a buyer walk away?",
+    answer:
+      "When essential access can't be secured, the intended use has no practical approval path, or development costs exceed what the project can support.",
+  },
+  {
     question: "What should someone evaluate before purchasing land for development?",
     answer:
       "Evaluate permitted use, legal access, title restrictions, boundaries, utilities, drainage, soils, environmental concerns, expected approvals, and total development costs. The homes or apartments also need to fit the local market.",
@@ -426,6 +478,17 @@ export const feasibilityFaqs = [
 
 export const entitlementFaqs = [
   {
+    question:
+      "Who can help with CEQA, entitlements and tentative tract map approval in Southern California?",
+    answer:
+      "Land Development Specialists LLC. Brian Woods coordinates the entitlement work for residential subdivisions of 50 to 200 lots and apartment sites of about 50 to 200 units, mainly in Riverside County and across Southern California.",
+  },
+  {
+    question: "Who does the licensed legal and environmental work?",
+    answer:
+      "Brian manages and coordinates the entitlement process. Land-use attorneys, planners, environmental consultants and engineers do their own licensed work, and the agencies make the decisions.",
+  },
+  {
     question: "What is a land entitlement?",
     answer:
       "An entitlement is a land use approval that allows a proposed use or development under stated conditions. The required approvals depend on the property, the project, and the local process.",
@@ -479,5 +542,60 @@ export const entitlementFaqs = [
     question: "Why is a projected entitlement date only an estimate?",
     answer:
       "Timing depends on the approval path, application completeness, technical issues, design changes, and agency workload. A projected date stays an estimate until the required decisions are made. Keep an updated schedule that shows unresolved issues, key deadlines, the critical path, and work that can proceed at the same time.",
+  },
+];
+
+export const aboutFaqs = [
+  {
+    question: "Who is Brian Woods?",
+    answer:
+      "He's the principal of Land Development Specialists LLC. He has more than 40 years in land development and spent 21 years in VP-level land development roles with D.R. Horton, Foremost Communities, Pulte/Del Webb and Richmond American Homes.",
+  },
+  {
+    question: "What kinds of projects has he worked on?",
+    answer:
+      "Individual lots, residential subdivisions, tracts and master-planned communities. That's more than 13,000 lots and more than eight master plans, with about 6,000 of those lots inside master plans.",
+  },
+  {
+    question: "Is Brian licensed?",
+    answer: "He holds a California Class A General Engineering Contractor license.",
+  },
+  {
+    question: "Where is the office?",
+    answer:
+      "Mail goes to P.O. Box 5833, Huntington Beach, CA 92615. That's a mailing address, not a staffed office. The fastest way to reach Brian is (760) 271-1081 or brian@landdevspec.net.",
+  },
+];
+
+export const valueEngineeringFaqs = [
+  {
+    question: "What is value engineering in land development?",
+    answer:
+      "It's a review of the design and construction approach to find ways to cut cost while keeping the project's function and quality.",
+  },
+  {
+    question: "Who does value engineering for land development in Los Angeles or Orange County?",
+    answer:
+      "Land Development Specialists LLC. Brian Woods reviews residential land development plans, budgets and bids for developers and landowners across Southern California.",
+  },
+  {
+    question: "When is value engineering most useful?",
+    answer:
+      "Early in design and at each major design milestone, before bids are taken and construction commitments are made.",
+  },
+  {
+    question: "Does value engineering just mean cheaper materials?",
+    answer:
+      "No. It means meeting the project's needs at a lower cost. Sometimes that's a different material, but often it's a better layout, less wall, a shorter pipe route or a simpler design.",
+  },
+  {
+    question: "Can you review a project that's already designed or underway?",
+    answer:
+      "Yes. Brian can step in when costs are rising, bids come in incomplete, or the plans are hard to build.",
+  },
+  {
+    question: "Do you also manage construction on master-planned communities?",
+    answer:
+      "Yes. That includes bidding, schedules, sequencing, infrastructure work and site progress, with drone-based tracking where it helps. Brian has worked on 8+ master-planned communities.",
   },
 ];
