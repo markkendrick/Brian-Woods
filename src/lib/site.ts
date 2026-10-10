@@ -1,4 +1,4 @@
-const PRODUCTION_SITE_URL = "https://landdevspec.net";
+const PRODUCTION_SITE_URL = "https://www.landdevspec.net";
 
 function resolveSiteUrl(): string {
   const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
